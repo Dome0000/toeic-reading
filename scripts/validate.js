@@ -235,9 +235,11 @@ function validateExam(id, tagIndex, lessonIndex) {
   p7All.forEach(({ q, set }) => {
     if (!(q.tags || []).includes('writer-intent')) return;
     const combined = (set.passages || []).map(p => stripHtml(p.html)).join(' ');
-    const m = /["“”']([^"“”']{8,})["“”']/.exec(q.stem || '');
-    if (m && !combined.includes(stripHtml(m[1]))) {
-      warn(`[exam ${id}] ข้อ ${q.no}: quote ในคำถาม intent ไม่พบในบทความ: "${m[1].slice(0, 60)}"`);
+    // จับข้อความที่อยู่ในเครื่องหมายคำพูดแบบเดียวกัน (ไม่ถูก apostrophe �/'ตัดคำ)
+    const m = /"([^"]{8,})"|“([^”]{8,})”/.exec(q.stem || '');
+    const quote = m ? (m[1] || m[2]) : null;
+    if (quote && !combined.includes(stripHtml(quote))) {
+      warn(`[exam ${id}] ข้อ ${q.no}: quote ในคำถาม intent ไม่พบในบทความ: "${quote.slice(0, 60)}"`);
     }
   });
 
