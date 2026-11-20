@@ -97,6 +97,32 @@
         + "</div>";
     }
 
+    // pacing: เวลาที่ใช้ต่อพาร์ทเทียบกับเวลาที่แนะนำ (เฉพาะสอบเต็มรูปแบบ)
+    var RECOMMENDED_MIN = { 5: 11, 6: 9, 7: 55 };
+    if (attempt.perPartSec && attempt.mode === "full") {
+      var pacingHtml = '<div class="card"><h2>การจัดการเวลา (เทียบกับเวลาที่แนะนำ)</h2>';
+      var anyPacing = false;
+      [5, 6, 7].forEach(function (p) {
+        var usedMs = attempt.perPartSec[p] || 0;
+        var rec = RECOMMENDED_MIN[p];
+        var ps = attempt.partScores && attempt.partScores[p];
+        if (!ps || !ps.total) return;
+        anyPacing = true;
+        var usedMin = usedMs / 60000; // perPartSec เก็บเป็นมิลลิวินาที (Date.now() delta)
+        var ratio = rec > 0 ? usedMin / rec : 0;
+        var cls = ratio <= 1.15 ? "strong" : ratio <= 1.4 ? "ok" : "weak";
+        var widthPct = Math.max(3, Math.min(100, Math.round(ratio * 100)));
+        var verdict = ratio <= 1.15 ? "อยู่ในเกณฑ์ดี" : ratio <= 1.4 ? "ช้ากว่าเป้าหมายเล็กน้อย" : "ใช้เวลานานเกินไป — ฝึกทำเร็วขึ้น";
+        pacingHtml += '<div class="bar-row"><span>Part ' + p + ' <span class="muted">— ใช้ ~' + (usedMin < 10 ? usedMin.toFixed(1) : Math.round(usedMin)) + ' นาที (แนะนำ ' + rec + ')</span></span>'
+          + '<div class="bar-track"><div class="bar-fill ' + cls + '" style="width:' + widthPct + '%"></div></div>'
+          + '<strong style="font-weight:600">' + verdict + "</strong></div>";
+      });
+      if (anyPacing) {
+        pacingHtml += '<p class="muted" style="margin-bottom:0">เวลารวมที่ใช้ ' + Math.round(attempt.timeUsedSec / 60) + ' นาที (สอบ 75 นาที) · ถ้า Part 5/6 ใช้เวลามากเกินไป ลองตั้งเป้าจบ Part 5 ใน 11 นาที แล้วเหลือเวลาส่วนใหญ่ให้ Part 7</p></div>';
+        html += pacingHtml;
+      }
+    }
+
     // tag accuracy
     if (tagEntries.length) {
       html += '<div class="card"><h2>ความแม่นยำรายหัวข้อ (เรียงจากจุดอ่อนที่สุด)</h2>';
@@ -126,7 +152,10 @@
       + "</div><div id=\"review-list\"></div></div>";
 
     // actions
-    html += '<div class="lesson-actions no-print"><a class="btn btn-outline" href="#/exams">กลับไปหน้า Mock Exam</a></div>';
+    var wrongCount = (attempt.questionResults || []).filter(function (qr) { return qr.userAnswer !== qr.answer; }).length;
+    html += '<div class="lesson-actions no-print"><a class="btn btn-outline" href="#/exams">กลับไปหน้า Mock Exam</a>'
+      + (wrongCount ? '<a class="btn btn-primary" href="#/retry/' + utils.escapeHtml(attempt.id) + '">ทำใหม่เฉพาะข้อที่ผิด (' + wrongCount + ' ข้อ)</a>' : '')
+      + '<a class="btn btn-ghost" href="#/history">ดูประวัติทั้งหมด →</a></div>';
 
     appEl.innerHTML = html;
 
