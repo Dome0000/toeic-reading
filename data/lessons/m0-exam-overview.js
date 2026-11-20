@@ -1,0 +1,54 @@
+// data/lessons/m0-exam-overview.js — Module 0 · บทที่ 1
+window.TOEIC.lessons["m0-exam-overview"] = {
+  id: "m0-exam-overview",
+  module: 0,
+  order: 1,
+  title: "รู้จักข้อสอบ TOEIC Reading: โครงสร้าง การคิดคะแนน การแบ่งเวลา",
+  frequency: "สูง",
+  blocks: [
+    { type: "text", html: "<p><strong>ทำไมบทนี้สำคัญ:</strong> ผู้สอบส่วนใหญ่รู้ไวยากรณ์พอสมควรแต่ได้คะแนนต่ำ เพราะ <em>ไม่รู้จักกติกาของสนามแข่ง</em> — ไม่รู้ว่าข้อสอบมี 3 Part ใช้เวลายังไง และเดาอย่างไรให้ได้คะแนน TOEIC <strong>Reading Section มี 100 ข้อ เวลา 75 นาที คะแนน 5–495</strong> (รวมกับ Listening เป็น 990 เต็ม) ตอบผิดไม่ถูกหักคะแนน ดังนั้น<strong>ห้ามเว้นว่างเด็ดขาด</strong></p>" },
+
+    { type: "table", title: "โครงสร้าง Reading Section ตามข้อสอบจริง", headers: ["Part", "ชื่อ", "จำนวนข้อ", "เลขข้อ", "สิ่งที่ต้องทำ"], rows: [
+      ["Part 5", "Incomplete Sentences", "30", "101–130", "เติมคำ/วลีในประโยคเดียว — วัดแกรมมาร์และคำศัพท์"],
+      ["Part 6", "Text Completion", "16", "131–146", "อ่านบทความ 4 ชุด ชุดละ 4 ข้อ บางข้อให้แทรกประโยคเต็ม"],
+      ["Part 7", "Reading Comprehension", "54", "147–200", "อ่านบทความ ตอบคำถาม — Single 29 ข้อ · Double 10 ข้อ · Triple 15 ข้อ"]
+    ]},
+
+    { type: "table", title: "การแบ่งเวลาที่แนะนำ (75 นาที)", headers: ["ส่วน", "เวลาแนะนำ", "เป้าหมาย"], rows: [
+      ["Part 5", "≈ 11 นาที", "เฉลี่ยข้อละ ~20 วินาที — อ่านโจทย์ เลือกคำตอบ ไม่ย้อนกลับ"],
+      ["Part 6", "≈ 9 นาที", "ชุดละ ~2 นาที — อ่านบทความเร็ว ดู timeline ก่อนเลือก tense"],
+      ["Part 7", "≈ 55 นาที", "Single ~20 นาที · Double ~12 นาที · Triple ~23 นาที"]
+    ]},
+
+    { type: "text", html: "<h3>หลักการคิดคะแนนและการเดา</h3><ul><li>คำตอบถูก = ได้คะแนนดิบ 1 ข้อ · ไม่มีการหักคะแนน · <strong>เดาดีกว่าเว้นว่างเสมอ</strong></li><li>ตัดตัวเลือกที่ผิดชัดเจนออกก่อน แล้วเดาจากตัวเลือกที่เหลือ (จาก 4 เหลือ 2 → โอกาส 50%)</li><li>ถ้าไม่มีเวลาอ่านแล้วจริง ๆ ข้อสุดท้ายให้เลือกตัวเลือกที่ <em>กลาง ๆ และเป็น paraphrase</em> ของเนื้อหา ไม่ใช่ตัวที่ลอกคำตรงตัวมาทั้งประโยค</li><li>ลำดับการทำที่แนะนำ: <strong>Part 5 → Part 6 → Part 7</strong> เพราะ Part 5 ใช้เวลาน้อยได้คะแนนครบ 100% ของตัวมันเองถ้าแม่น</li></ul>" },
+
+    { type: "examples", title: "ตัวอย่างสถานการณ์จริงในห้องสอบ", items: [
+      { en: "The seminar, which was originally scheduled for March 3, has been postponed.", th: "สัมมนาซึ่งเดิมกำหนดไว้วันที่ 3 มีนาคม ถูกเลื่อนออกไปแล้ว (เห็น postponed → คำถามมักถามเรื่องกำหนดเวลาใหม่)" },
+      { en: "Please direct all inquiries to the customer service department.", th: "โปรดส่งคำถามทั้งหมดไปที่ฝ่ายบริการลูกค้า (คำถามมักถามว่า ควรติดต่อใคร/ที่ไหน)" },
+      { en: "A limited number of seats are available for the workshop.", th: "ที่นั่งสำหรับเวิร์กช็อปมีจำกัด (คำถามมักถามว่า ควรทำอย่างไร — จองเร็ว)" },
+      { en: "The quarterly report must be submitted no later than Friday.", th: "รายงานไตรมาสต้องส่งไม่เกินวันศุกร์ (deadline → by/no later than)" },
+      { en: "Employees are reminded to log their hours in the new system.", th: "พนักงานได้รับแจ้งเตือนให้บันทึกชั่วโมงทำงานในระบบใหม่ (notice/memo → purpose = remind)" },
+      { en: "This offer is valid through December 31.", th: "ข้อเสนอนี้ใช้ได้จนถึงวันที่ 31 ธันวาคม (through = รวมวันนั้นด้วย)" }
+    ]},
+
+    { type: "clue", title: "เห็นอะไร → ตอบอะไร (ภาพรวมทั้งสนามสอบ)", html: "<ul><li>เห็น <strong>ประโยคเดี่ยว + ช่องว่าง</strong> → Part 5 · ดูหน้า-หลังช่องว่างหาหน้าที่ของคำ (n./v./adj./adv.) หรือคำบอกเวลา</li><li>เห็น <strong>บทความ + ช่องว่าง 4 จุด + เลขข้อกำกับ</strong> → Part 6 · อ่านทั้งบทก่อน ดู timeline และคำเชื่อม</li><li>เห็น <strong>เอกสารธุรกิจ + คำถามท้ายเรื่อง</strong> → Part 7 · ขีดเส้นใต้ keyword ของคำถาม แล้วสแกนหาในบทความ</li><li>เห็น <strong>เอกสาร 2–3 ฉบับต่อกัน</strong> → Multiple passages · อย่างน้อย 1 ข้อต้องใช้ข้อมูลข้ามฉบับ (วันที่ เวลา ราคา ชื่อต้องตรงกัน)</li></ul>" },
+
+    { type: "callout", tone: "trap", title: "กับดักที่ข้อสอบชอบใช้", html: "<ul><li>ตัวเลือกที่<strong>ลอกคำในบทความมาตรง ๆ</strong>มักเป็นตัวลวง — คำตอบที่ถูกมักเป็น <em>paraphrase</em> (เช่น postpone ↔ put off)</li><li>ตัวเลือกที่ดูถูกแต่<strong>เกินขอบเขตบทความ</strong> (over-inference) เช่น บทความบอกแค่ว่า 'ราคาสูงขึ้น' แต่ตัวเลือกบอกว่า 'ลูกค้าจะเลิกซื้อ'</li><li>Part 5: ตัวลวงมักเป็น word form ผิดหน้าที่ (complete / completion / completely / completed)</li></ul>" },
+    { type: "callout", tone: "thai-mistake", title: "จุดที่คนไทยมักพลาด", html: "<ul><li>อ่านภาษาไทยก่อนว่าตัวเลือกแปลว่าอะไร แล้วเลือกคำที่<em>คุ้นเคย</em>แทนที่จะวิเคราะห์หน้าที่ของคำในประโยค</li><li>ใช้เวลานานกับ Part 7 จนเหลือเวลาไม่พอ Part 5–6 → ฝึกจับเวลาจริงจังทุกครั้ง</li><li>ข้ามการอ่าน Directions ทำให้สับสนรูปแบบข้อ (เช่น ข้อแทรกประโยค [1]–[4])</li></ul>" },
+    { type: "callout", tone: "tip", title: "เทคนิคทำให้เร็ว", html: "Part 5: อ่านตั้งแต่ท้ายประโยคหน้าช่องว่างก่อน แล้วดูตัวเลือก — ถ้าตัวเลือกเป็น word form ทั้ง 4 ตัว ให้ดู<strong>ตำแหน่งในประโยค</strong>ก่อนอ่านความหมาย · Part 7: อ่านคำถามก่อนอ่านบทความเสมอ แล้วสแกน keyword (ตัวเลข ชื่อ วันที่) ไม่ต้องอ่านทุกคำ" },
+
+    { type: "cheatsheet", html: "<ul><li><strong>100 ข้อ · 75 นาที · 5–495 คะแนน · ผิดไม่หักคะแนน → ห้ามเว้นว่าง</strong></li><li>Part 5 = 30 ข้อ (101–130) · Part 6 = 16 ข้อ (131–146) · Part 7 = 54 ข้อ (147–200)</li><li>แบ่งเวลา: P5 ≈ 11 นาที · P6 ≈ 9 นาที · P7 ≈ 55 นาที</li><li>ลำดับทำ: Part 5 → Part 6 → Part 7</li><li>เดา: ตัดตัวเลือกผิดชัดเจนออกก่อน · ไม่มีเวลาให้ paraphrase กลาง ๆ</li><li>คำตอบถูกมักเป็น paraphrase — ตัวที่ลอกคำตรงตัวมักเป็นตัวลวง</li></ul>" }
+  ],
+  quiz: [
+    { no: 1, stem: "How many questions are there in the TOEIC Reading Section?", options: ["50", "75", "100", "200"], answer: "C", tags: ["detail"], difficulty: "easy", translationTh: "TOEIC Reading Section มีกี่ข้อ", explain: { why: "Reading Section มี 100 ข้อ (Part 5: 30 · Part 6: 16 · Part 7: 54)", wrong: { A: "50 ข้อคือจำนวนครึ่งหนึ่ง ไม่ใช่ข้อสอบจริง", B: "75 คือจำนวนนาที ไม่ใช่จำนวนข้อ", D: "200 เกินจริง — ทั้ง Listening + Reading รวมกันคือ 200" }, tip: "จำตัวเลข: 100 ข้อ · 75 นาที · 5–495 คะแนน" } },
+    { no: 2, stem: "How long is the TOEIC Reading Section?", options: ["120 minutes", "45 minutes", "60 minutes", "75 minutes"], answer: "D", tags: ["detail"], difficulty: "easy", translationTh: "Reading Section ใช้เวลากี่นาที", explain: { why: "Reading Section ใช้เวลา 75 นาที สำหรับ 100 ข้อ", wrong: { A: "120 นาทีเกินจริง", B: "45 นาทีไม่ใช่เวลาของข้อสอบ", C: "60 นาทีเป็นกับดักตัวเลขกลม" }, tip: "Listening 45 นาที · Reading 75 นาที" } },
+    { no: 3, stem: "Which Part measures the ability to complete single sentences with the correct word or phrase?", options: ["Part 5", "Part 6", "Part 7", "Part 3"], answer: "A", tags: ["main-idea"], difficulty: "easy", translationTh: "Part ใดวัดความสามารถเติมคำในประโยคเดี่ยว", explain: { why: "Part 5 Incomplete Sentences ให้เติมคำ/วลีในประโยคเดียว 30 ข้อ", wrong: { B: "Part 6 เป็น Text Completion อ่านบทความ 4 ชุด", C: "Part 7 เป็น Reading Comprehension อ่านบทความแล้วตอบคำถาม", D: "Part 3 เป็น Listening (Conversation) ไม่เกี่ยวกับ Reading" }, tip: "Part 5 = ประโยคเดี่ยว · Part 6 = บทความ + ช่องว่าง · Part 7 = บทความ + คำถาม" } },
+    { no: 4, stem: "In Part 6, how many questions follow each passage?", options: ["3", "4", "5", "2"], answer: "B", tags: ["detail"], difficulty: "easy", translationTh: "Part 6 แต่ละบทความมีกี่ข้อ", explain: { why: "Part 6 มี 4 ชุด ชุดละ 4 ข้อ (ข้อ 131–146)", wrong: { A: "3 ข้อไม่ใช่", C: "5 ข้อเป็นโครงสร้างของแต่ละชุดใน Part 7 Multiple passages", D: "2 ข้อไม่ใช่โครงสร้าง Part 6" }, tip: "Part 6 = 4 ชุด × 4 ข้อ = 16 ข้อ" } },
+    { no: 5, stem: "What is the approximate time recommended for Part 5?", options: ["5 minutes", "11 minutes", "30 minutes", "55 minutes"], answer: "B", tags: ["detail"], difficulty: "medium", translationTh: "เวลาที่แนะนำสำหรับ Part 5 ประมาณเท่าไร", explain: { why: "แนะนำแบ่งเวลา Part 5 ≈ 11 นาที (ข้อละ ~20 วินาที)", wrong: { A: "5 นาทีเร็วเกินไป คุณภาพคำตอบจะตก", C: "30 นาทีมากเกินไป จะทำ Part 7 ไม่ทัน", D: "55 นาทีคือเวลาที่แนะนำสำหรับ Part 7 ทั้งหมด" }, tip: "P5 ≈ 11 นาที · P6 ≈ 9 นาที · P7 ≈ 55 นาที รวม 75 นาทีพอดี" } },
+    { no: 6, stem: "According to the recommended strategy, in which order should you answer the parts?", options: ["Part 7 → Part 6 → Part 5", "Part 6 → Part 5 → Part 7", "Part 5 → Part 6 → Part 7", "Part 7 → Part 5 → Part 6"], answer: "C", tags: ["main-idea"], difficulty: "medium", translationTh: "ตามกลยุทธ์ที่แนะนำ ควรทำ Part ใดก่อน", explain: { why: "ทำ Part 5 → 6 → 7 เพราะ Part 5 เก็บคะแนนได้เร็ว และ Part 7 ต้องใช้เวลาวิเคราะห์มากที่สุด", wrong: { A: "เริ่ม Part 7 เสี่ยงหมดเวลา Part 5–6", B: "Part 6 ก่อน Part 5 ไม่ได้เปรียบเทียบเชิงกลยุทธ์", D: "ลำดับนี้สลับทั้งหมด" }, tip: "เก็บแต้มง่ายก่อน แล้วค่อยลงลึก" } },
+    { no: 7, stem: "Wrong answers in the TOEIC are penalized by deducting points.", options: ["Only in Part 7", "Only in Part 5", "True", "False"], answer: "D", tags: ["detail"], difficulty: "easy", translationTh: "คำตอบผิดใน TOEIC ถูกหักคะแนน", explain: { why: "TOEIC ตอบผิดไม่หักคะแนน — ทุกข้อจึงควรตอบ ไม่เว้นว่าง", wrong: { A: "Part 7 ก็ไม่มีการหักคะแนน", B: "Part 5 ก็ไม่มีการหักคะแนน", C: "ไม่จริง ระบบไม่หักคะแนนเลย" }, tip: "ไม่แน่ใจก็เดา — เว้นว่างคือเสียแต้มแน่นอน" } },
+    { no: 8, stem: "In Part 7, questions 147–175 are which type of passage?", options: ["Single passages", "Listening passages", "Double passages", "Triple passages"], answer: "A", tags: ["detail"], difficulty: "medium", translationTh: "ข้อ 147–175 เป็นบทความประเภทใด", explain: { why: "Single passages (บทความเดี่ยว) ครอบคลุมข้อ 147–175 จำนวน 29 ข้อ (10 ชุด)", wrong: { B: "Part 7 ไม่มี Listening", C: "Double passages อยู่ข้อ 176–185 (2 ชุด × 5 ข้อ)", D: "Triple passages อยู่ข้อ 186–200 (3 ชุด × 5 ข้อ)" }, tip: "147–175 Single · 176–185 Double · 186–200 Triple" } },
+    { no: 9, stem: "Which strategy is recommended when you have no time left in Part 7?", options: ["Leave the remaining questions blank", "Choose options that paraphrase the passage, not verbatim copies", "Choose the longest option", "Choose the same letter for every remaining question"], answer: "B", tags: ["inference"], difficulty: "hard", translationTh: "ถ้าไม่มีเวลาเหลือใน Part 7 ควรใช้กลยุทธ์ใด", explain: { why: "คำตอบที่ถูกมักเป็น paraphrase ของบทความ ส่วนตัวที่ลอกคำตรงตัวมาทั้งประโยคมักเป็นตัวลวง", wrong: { A: "เว้นว่างเสียโอกาสได้แต้ม — ผิดกติกาหลักของ TOEIC", C: "ความยาวตัวเลือกไม่มีความสัมพันธ์กับความถูกต้อง", D: "เลือกล้วน D เป็นการเดาแบบไม่มีหลักการ" }, tip: "Paraphrase = ใจความเดียวกัน ใช้คำต่างกัน — นี่คือแก่นของ Part 7" } },
+    { no: 10, stem: "How is the Reading Section score reported?", options: ["0–100", "0–990", "5–495", "10–990"], answer: "C", tags: ["detail"], difficulty: "easy", translationTh: "คะแนน Reading Section รายงานเป็นช่วงใด", explain: { why: "Reading Section ให้คะแนน 5–495 (Listening ก็ 5–495 รวมกันเป็น 10–990)", wrong: { A: "0–100 เป็นคะแนนดิบ ไม่ใช่ scaled score", B: "0–990 ไม่ถูก — เต็มคือ 990 แต่ Reading เต็ม 495", D: "10–990 ไม่ใช่สเกลของ Reading" }, tip: "Reading 5–495 · Listening 5–495 · Total 10–990" } }
+  ]
+};

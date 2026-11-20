@@ -1,0 +1,36 @@
+// data/vocab/dining.js — คลังคำศัพท์: Dining & Events
+window.TOEIC.vocab["dining"] = {
+  title: "Dining & Events",
+  words: [
+    { word: "reservation", pos: "n.", th: "การจองโต๊ะ/ที่นั่ง", ex: "Your reservation is confirmed for 7:30 P.M. tonight.", exTh: "การจองของคุณได้รับการยืนยัน 19:30 คืนนี้", colloc: ["make a reservation", "dinner reservation"], syn: ["booking"] },
+    { word: "menu", pos: "n.", th: "เมนูอาหาร", ex: "The fixed-price menu includes three courses.", exTh: "เมนูราคาชุดรวมสามคอร์ส", colloc: ["dinner menu", "a la carte menu"], syn: ["bill of fare"] },
+    { word: "cuisine", pos: "n.", th: "อาหาร (เชิงชนิด)", ex: "The restaurant specializes in Thai and Japanese cuisine.", exTh: "ร้านนี้เชี่ยวชาญเมนูไทยและญี่ปุ่น", colloc: ["local cuisine", "fine cuisine"], syn: ["cooking", "fare"] },
+    { word: "appetizer", pos: "n.", th: "อาหารเรียกน้ำย่อย", ex: "The appetizer platter serves four people.", exTh: "เซ็ตอาหารเรียกน้ำย่อยนี้สำหรับสี่คน", colloc: ["appetizer selection", "starter appetizer"], syn: ["starter"] },
+    { word: "dessert", pos: "n.", th: "ของหวาน", ex: "The chef's signature dessert is the mango sticky rice.", exTh: "ของหวานจานเซ็นของเชฟคือข้าวเหนียวมะม่วง", colloc: ["dessert menu", "signature dessert"], syn: ["after-dinner treat"] },
+    { word: "banquet", pos: "n.", th: "งานเลี้ยง/การเลี้ยงรับรอง", ex: "The annual banquet is scheduled for December 12.", exTh: "งานเลี้ยงประจำปีกำหนดวันที่ 12 ธันวาคม", colloc: ["annual banquet", "banquet hall"], syn: ["feast", "reception"] },
+    { word: "catering", pos: "n.", th: "บริการจัดเลี้ยง", ex: "The company hired a catering service for the launch.", exTh: "บริษัทจ้างบริการจัดเลี้ยงสำหรับงานเปิดตัว", colloc: ["catering service", "catering menu"], syn: ["food service"] },
+    { word: "venue", pos: "n.", th: "สถานที่จัดงาน", ex: "The venue can accommodate 300 guests.", exTh: "สถานที่จัดงานรองรับแขก 300 คน", colloc: ["event venue", "wedding venue"], syn: ["location", "site"] },
+    { word: "occasion", pos: "n.", th: "โอกาส/วาระ", ex: "This dinner marks the occasion of our 20th anniversary.", exTh: "งานนี้ฉลองโอกาสครบรอบ 20 ปี", colloc: ["special occasion", "on the occasion of"], syn: ["event", "celebration"] },
+    { word: "reception", pos: "n.", th: "งานเลี้ยงต้อนรับ", ex: "A reception will follow the ceremony in the garden.", exTh: "จะมีงานเลี้ยงต้อนรับหลังพิธีในสวน", colloc: ["wedding reception", "cocktail reception"], syn: ["party", "function"] },
+    { word: "beverage", pos: "n.", th: "เครื่องดื่ม", ex: "Complimentary beverages are served during the seminar.", exTh: "มีเครื่องดื่มฟรีระหว่างสัมมนา", colloc: ["complimentary beverage", "beverage service"], syn: ["drink"] },
+    { word: "serving", pos: "n.", th: "ภาชนะ/การเสิร์ฟ (หนึ่งหน่วย)", ex: "The dish serves two people; please order two servings.", exTh: "จานนี้สำหรับสองคน โปรดสั่งสองที่", colloc: ["serving size", "single serving"], syn: ["portion"] },
+    { word: "tip", pos: "n.", th: "เงินทิป", ex: "A 10 percent tip is included in the bill.", exTh: "ทิป 10 เปอร์เซ็นต์รวมในบิลแล้ว", colloc: ["leave a tip", "tip included"], syn: ["gratuity"] },
+    { word: "bill", pos: "n.", th: "บิล/ใบเรียกเก็บเงิน", ex: "The bill includes tax and service charge.", exTh: "บิลรวมภาษีและค่าบริการแล้ว", colloc: ["pay the bill", "the bill, please"], syn: ["check", "invoice"] },
+    { word: "course", pos: "n.", th: "คอร์สอาหาร (จานเสิร์ฟทีละลำดับ)", ex: "Dinner consists of four courses.", exTh: "อาหารเย็นมีสี่คอร์ส", colloc: ["three-course meal", "first course"], syn: ["dish"] },
+    { word: "sommelier", pos: "n.", th: "ผู้เชี่ยวชาญไวน์ (โรงแรม/ร้านอาหาร)", ex: "The sommelier recommended a red wine with the steak.", exTh: "ผู้เชี่ยวชาญไวน์แนะนำไวน์แดงคู่กับสเต็ก", colloc: ["sommelier recommendation", "hotel sommelier"], syn: ["wine steward"] },
+    { word: "caterer", pos: "n.", th: "ผู้ให้บริการจัดเลี้ยง", ex: "Our caterer can provide kosher meals on request.", exTh: "ผู้จัดเลี้ยงจัดอาหารโคเชอร์ได้เมื่อขอ", colloc: ["approved caterer", "caterer contract"], syn: ["food service provider"] },
+    { word: "seating", pos: "n.", th: "การจัดที่นั่ง", ex: "Seating is limited to 120 guests.", exTh: "ที่นั่งจำกัด 120 คน", colloc: ["seating arrangement", "seating capacity"], syn: ["accommodation"] },
+    { word: "RSVP", pos: "n./v.", th: "การตอบรับเชิญ", ex: "Please RSVP by June 20 to reserve your seat.", exTh: "โปรดตอบรับภายใน 20 มิถุนายนเพื่อจองที่นั่ง", colloc: ["RSVP by", "RSVP online"], syn: ["reply", "respond"] },
+    { word: "function", pos: "n.", th: "งาน (กึ่งทางการ)", ex: "The hotel ballroom hosts corporate functions.", exTh: "ห้องบอลรูมโรงแรมจัดงานบริษัท", colloc: ["corporate function", "function room"], syn: ["event", "gathering"] },
+    { word: "auditorium", pos: "n.", th: "ห้องโถงประชุม/หอประชุม", ex: "The keynote will be held in the main auditorium.", exTh: "คำปราศรัยหลักจะจัดในหอประชุมใหญ่", colloc: ["auditorium seating", "main auditorium"], syn: ["hall", "theater"] },
+    { word: "buffet", pos: "n.", th: "บุฟเฟต์", ex: "Breakfast is served buffet-style from 6:30 to 10:00 A.M.", exTh: "อาหารเช้าแบบบุฟเฟต์ 06:30–10:00", colloc: ["breakfast buffet", "buffet line"], syn: ["self-service"] },
+    { word: "specialty", pos: "n.", th: "เมนูเด่น/ความเชี่ยวชาญ", ex: "The restaurant's specialty is seafood hot pot.", exTh: "เมนูเด่นของร้านคือหม้อไฟซีฟู้ด", colloc: ["house specialty", "signature specialty"], syn: ["signature dish"] },
+    { word: "decor", pos: "n.", th: "การตกแต่งสถานที่/ภาพรวม", ex: "The decor matched the corporate anniversary theme.", exTh: "การตกแต่งเข้ากับธีมครบรอบบริษัท", colloc: ["event decor", "elegant decor"], syn: ["decoration", "styling"] },
+    { word: "waiter", pos: "n.", th: "พนักงานเสิร์ฟ (ชาย)", ex: "The waiter took our order promptly.", exTh: "พนักงานเสิร์ฟรับออเดอร์ทันที", colloc: ["server waiter"], syn: ["server", "attendant"] },
+    { word: "server", pos: "n.", th: "พนักงานเสิร์ฟ", ex: "Our servers are trained in allergy awareness.", exTh: "พนักงานเสิร์ฟของเราผ่านการฝึกเรื่องอาหารแพ้", colloc: ["table server", "server station"], syn: ["waiter", "waitress"] },
+    { word: "chef", pos: "n.", th: "เชฟ/พ่อครัว", ex: "The head chef prepares each dish to order.", exTh: "เชฟใหญ่ปรุงทุกจานตามสั่ง", colloc: ["head chef", "executive chef"], syn: ["cook", "culinary director"] },
+    { word: "ingredient", pos: "n.", th: "วัตถุดิบ/ส่วนผสม", ex: "All ingredients are sourced locally.", exTh: "วัตถุดิบทั้งหมดจัดหาจากท้องถิ่น", colloc: ["fresh ingredients", "key ingredient"], syn: ["component"] },
+    { word: "prix fixe", pos: "n./adj.", th: "เมนูราคาชุด (คงที่)", ex: "The prix fixe includes three courses and a dessert.", exTh: "เมนูราคาชุดรวมสามคอร์สและของหวาน", colloc: ["prix fixe menu", "prix fixe lunch"], syn: ["set menu", "fixed-price menu"] },
+    { word: "corkage", pos: "n.", th: "ค่าเปิดขวดไวน์ (ถ้าซื้อจากภายนอก)", ex: "The restaurant charges a $25 corkage fee.", exTh: "ร้านเก็บค่าเปิดขวด 25 ดอลลาร์", colloc: ["corkage fee", "no corkage"], syn: ["bottle fee"] }
+  ]
+};

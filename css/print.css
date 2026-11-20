@@ -1,0 +1,15 @@
+/* css/print.css — พิมพ์บทเรียน / Cheat Sheet เป็นกระดาษสวย */
+@media print {
+  @page { margin: 14mm 12mm; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { background: #fff !important; color: #000 !important; font-size: 11pt; line-height: 1.5; }
+  .topbar, .footer, .no-print, .lesson-actions, .quiz-section, .nav-toggle { display: none !important; }
+  main#app { padding: 0; min-height: 0; }
+  .card, .callout, .cheatsheet, .example-item, .question { box-shadow: none; border-color: #999; break-inside: avoid; }
+  h1 { font-size: 18pt; } h2 { font-size: 14pt; } h3 { font-size: 12pt; }
+  a { color: #000; text-decoration: none; }
+  .cheatsheet { border: 1.5pt dashed #333; }
+  .lesson-hero { border-bottom: 2pt solid #000; }
+  table.data th { background: #eee !important; }
+  .example-th { display: block !important; color: #333; }
+}

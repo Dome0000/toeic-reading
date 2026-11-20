@@ -1,0 +1,36 @@
+// data/vocab/customer.js — คลังคำศัพท์: Customer Service
+window.TOEIC.vocab["customer"] = {
+  title: "Customer Service",
+  words: [
+    { word: "inquiry", pos: "n.", th: "การสอบถาม/คำถาม", ex: "We answer all customer inquiries within one business day.", exTh: "เราตอบคำถามลูกค้าภายในวันทำการเดียว", colloc: ["customer inquiry", "product inquiry"], syn: ["question", "query"] },
+    { word: "complaint", pos: "n.", th: "ข้อร้องเรียน", ex: "The complaint was resolved within 48 hours.", exTh: "ข้อร้องเรียนได้รับการแก้ปัญหาภายใน 48 ชั่วโมง", colloc: ["file a complaint", "complaint handling"], syn: ["grievance", "issue"] },
+    { word: "satisfaction", pos: "n.", th: "ความพึงพอใจ", ex: "Customer satisfaction rose to 92 percent.", exTh: "ความพึงพอใจลูกค้าเพิ่มเป็น 92 เปอร์เซ็นต์", colloc: ["customer satisfaction", "satisfaction survey"], syn: ["contentment"] },
+    { word: "refund", pos: "n./v.", th: "เงินคืน/การคืนเงิน", ex: "The refund will be credited within ten days.", exTh: "เงินคืนจะเข้าบัญชีภายในสิบวัน", colloc: ["issue a refund", "refund policy"], syn: ["reimbursement", "repayment"] },
+    { word: "exchange", pos: "n./v.", th: "การเปลี่ยนสินค้า", ex: "We offer free exchange within 30 days of purchase.", exTh: "เปลี่ยนฟรีภายใน 30 วันหลังซื้อ", colloc: ["free exchange", "exchange policy"], syn: ["swap", "replacement"] },
+    { word: "warranty", pos: "n.", th: "การรับประกัน", ex: "The laptop comes with a one-year warranty.", exTh: "แล็ปท็อปมาพร้อมรับประกันหนึ่งปี", colloc: ["warranty claim", "warranty period"], syn: ["guarantee"] },
+    { word: "feedback", pos: "n.", th: "ข้อเสนอแนะ", ex: "We value your feedback after every visit.", exTh: "เราให้ค่ากับข้อเสนอแนะหลังทุกครั้งที่เข้าร้าน", colloc: ["customer feedback", "feedback survey"], syn: ["comments", "input"] },
+    { word: "support", pos: "n.", th: "การสนับสนุน/การช่วยเหลือ", ex: "Our support team is available 24/7.", exTh: "ทีมสนับสนุนของเราพร้อม 24 ชั่วโมง", colloc: ["customer support", "technical support"], syn: ["assistance", "help"] },
+    { word: "service", pos: "n.", th: "การบริการ", ex: "The service quality exceeded our expectations.", exTh: "คุณภาพการบริการเกินความคาดหวังของเรา", colloc: ["excellent service", "service quality"], syn: ["assistance"] },
+    { word: "resolution", pos: "n.", th: "การแก้ปัญหา (ระงับข้อร้องเรียน)", ex: "Resolution time for complaints decreased by half.", exTh: "เวลาแก้ข้อร้องเรียนลดลงครึ่งหนึ่ง", colloc: ["complaint resolution", "timely resolution"], syn: ["settlement", "solution"] },
+    { word: "priority", pos: "n.", th: "สิ่งสำคัญ/ลำดับความสำคัญ", ex: "Customer issues are treated as top priority.", exTh: "ปัญหาลูกค้าถูกจัดลำดับความสำคัญสูงสุด", colloc: ["high priority", "priority support"], syn: ["importance"] },
+    { word: "assist", pos: "v.", th: "ช่วยเหลือ", ex: "How may I assist you today?", exTh: "วันนี้มีอะไรให้ช่วยครับ", colloc: ["assist customers", "assist with a problem"], syn: ["help", "support"] },
+    { word: "representative", pos: "n.", th: "ตัวแทน/เจ้าหน้าที่บริการลูกค้า", ex: "A representative will contact you shortly.", exTh: "เจ้าหน้าที่จะติดต่อคุณเร็ว ๆ นี้", colloc: ["customer service representative", "account representative"], syn: ["agent", "rep"] },
+    { word: "policy", pos: "n.", th: "นโยบาย/ระเบียบ", ex: "Our return policy allows exchanges within 30 days.", exTh: "นโยบายรับคืนของเราเปลี่ยนสินค้าได้ภายใน 30 วัน", colloc: ["return policy", "refund policy"], syn: ["rule", "guideline"] },
+    { word: "order", pos: "n.", th: "คำสั่งซื้อ", ex: "Your order number is NH-2210.", exTh: "หมายเลขคำสั่งซื้อของคุณคือ NH-2210", colloc: ["order confirmation", "order status"], syn: ["purchase"] },
+    { word: "delivery", pos: "n.", th: "การจัดส่ง", ex: "Delivery is expected within three business days.", exTh: "การจัดส่งคาดว่าภายในสามวันทำการ", colloc: ["free delivery", "delivery time"], syn: ["shipment", "drop-off"] },
+    { word: "survey", pos: "n./v.", th: "แบบสำรวจ/สำรวจความคิดเห็น", ex: "Please complete our satisfaction survey before you leave.", exTh: "โปรดทำแบบสำรวจความพึงพอใจก่อนกลับ", colloc: ["satisfaction survey", "conduct a survey"], syn: ["poll", "questionnaire"] },
+    { word: "courteous", pos: "adj.", th: "สุภาพ/มีมารยาท", ex: "Our staff are trained to be courteous and patient.", exTh: "พนักงานของเราได้รับการฝึกให้สุภาพและอดทน", colloc: ["courteous service", "courteous manner"], syn: ["polite", "respectful"] },
+    { word: "prompt", pos: "adj.", th: "รวดเร็วทันใจ", ex: "We guarantee a prompt response to every message.", exTh: "เรารับประกันตอบทุกข้อความอย่างรวดเร็ว", colloc: ["prompt response", "prompt service"], syn: ["quick", "timely"] },
+    { word: "escalate", pos: "v.", th: "ยกระดับปัญหา (ส่งต่อหัวหน้า)", ex: "The issue was escalated to the duty manager.", exTh: "ปัญหาถูกยกระดับไปยังผู้จัดการเวร", colloc: ["escalate an issue", "escalate to management"], syn: ["refer", "raise"] },
+    { word: "loyalty", pos: "n.", th: "ความภักดี/ความจงรักภักดี", ex: "The loyalty program rewards frequent shoppers.", exTh: "โปรแกรมสะสมแต้มให้รางวัลลูกค้าที่ซื้อบ่อย", colloc: ["loyalty program", "brand loyalty"], syn: ["faithfulness"] },
+    { word: "credit note", pos: "n.", th: "ใบเครดิต/ใบลดหนี้", ex: "A credit note was issued for the returned items.", exTh: "มีการออกใบลดหนี้สำหรับสินค้าที่คืน", colloc: ["issue a credit note", "credit note number"], syn: ["credit memo"] },
+    { word: "voicemail", pos: "n.", th: "ข้อความเสียง (ฝากข้อความ)", ex: "Please leave a voicemail with your order number.", exTh: "โปรดฝากข้อความเสียงพร้อมหมายเลขคำสั่งซื้อ", colloc: ["leave a voicemail", "check your voicemail"], syn: ["message"] },
+    { word: "hold", pos: "v.", th: "รอในสาย/พักสาย", ex: "Please hold for the next available agent.", exTh: "โปรดรอสายพักสำหรับเจ้าหน้าที่คนถัดไป", colloc: ["hold the line", "place on hold"], syn: ["wait"] },
+    { word: "callback", pos: "n.", th: "การติดต่อกลับ", ex: "We will arrange a callback within two hours.", exTh: "เราจะติดต่อกลับภายในสองชั่วโมง", colloc: ["schedule a callback", "request a callback"], syn: ["return call"] },
+    { word: "apology", pos: "n.", th: "คำขอโทษ", ex: "The manager issued a written apology to the customer.", exTh: "ผู้จัดการส่งจดหมายขอโทษลูกค้าเป็นลายลักษณ์อักษร", colloc: ["sincere apology", "issue an apology"], syn: ["regret", "sorry"] },
+    { word: "etiquette", pos: "n.", th: "มารยาท (ในงานบริการ)", ex: "Phone etiquette is part of our training.", exTh: "มารยาทการโทรศัพท์เป็นส่วนหนึ่งของการฝึกอบรม", colloc: ["business etiquette", "phone etiquette"], syn: ["manners", "protocol"] },
+    { word: "discretion", pos: "n.", th: "การใช้ดุลพินิจ", ex: "Employees may offer discounts at their discretion.", exTh: "พนักงานอาจให้ส่วนลดตามดุลพินิจ", colloc: ["at your discretion", "use your discretion"], syn: ["judgment", "leeway"] },
+    { word: "referral", pos: "n.", th: "การแนะนำ/การส่งต่อ", ex: "The referral program rewards both parties.", exTh: "โปรแกรมแนะนำให้รางวัลทั้งสองฝ่าย", colloc: ["customer referral", "referral program"], syn: ["reference", "recommendation"] },
+    { word: "outstanding", pos: "adj.", th: "ที่ยังค้าง (ออเดอร์/ยอดค้าง)", ex: "Outstanding balances are due within 30 days.", exTh: "ยอดค้างต้องชำระภายใน 30 วัน", colloc: ["outstanding balance", "outstanding order"], syn: ["unpaid", "pending"] }
+  ]
+};

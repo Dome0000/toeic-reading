@@ -1,0 +1,36 @@
+// data/vocab/travel.js — คลังคำศัพท์: Travel & Hospitality
+window.TOEIC.vocab["travel"] = {
+  title: "Travel & Hospitality",
+  words: [
+    { word: "reservation", pos: "n.", th: "การจอง", ex: "Your reservation is confirmed for two nights.", exTh: "การจองของคุณได้รับการยืนยันสองคืน", colloc: ["make a reservation", "reservation number"], syn: ["booking"] },
+    { word: "accommodation", pos: "n.", th: "ที่พัก", ex: "The hotel offers accommodation for business travelers.", exTh: "โรงแรมมีที่พักสำหรับนักเดินทางธุรกิจ", colloc: ["hotel accommodation", "accommodation options"], syn: ["lodging", "housing"] },
+    { word: "itinerary", pos: "n.", th: "กำหนดการเดินทาง", ex: "The travel itinerary includes flights, hotel, and meetings.", exTh: "กำหนดการเดินทางรวมเที่ยวบิน โรงแรม และการประชุม", colloc: ["travel itinerary", "detailed itinerary"], syn: ["schedule", "program"] },
+    { word: "flight", pos: "n.", th: "เที่ยวบิน", ex: "Flight 214 from Singapore arrives at 6:30 A.M.", exTh: "เที่ยวบิน 214 จากสิงคโปร์ถึง 06:30 น.", colloc: ["direct flight", "return flight"], syn: ["air journey"] },
+    { word: "check-in", pos: "n.", th: "การเช็คอิน", ex: "Check-in opens two hours before departure.", exTh: "เช็คอินเปิดสองชั่วโมงก่อนออกเดินทาง", colloc: ["online check-in", "check-in counter"], syn: ["registration"] },
+    { word: "check-out", pos: "n.", th: "การเช็คเอาต์", ex: "Check-out is at 11:00 A.M. sharp.", exTh: "การเช็คเอาต์คือ 11:00 น. ตรงเป๊ะ", colloc: ["late check-out", "early check-out"], syn: ["departure"] },
+    { word: "luggage", pos: "n.", th: "กระเป๋าเดินทาง", ex: "Checked luggage must weigh under 23 kilograms.", exTh: "กระเป๋าโหลดต้องหนักไม่เกิน 23 กิโลกรัม", colloc: ["excess luggage", "luggage allowance"], syn: ["baggage"] },
+    { word: "board", pos: "v.", th: "ขึ้นเครื่อง/ขึ้นยาน", ex: "Passengers may board 30 minutes before departure.", exTh: "ผู้โดยสารขึ้นเครื่องได้ 30 นาทีก่อนออกเดินทาง", colloc: ["board the plane", "boarding time"], syn: ["embark", "get on"] },
+    { word: "departure", pos: "n.", th: "การออกเดินทาง", ex: "The departure gate changed to B12.", exTh: "ประตูออกเดินทางเปลี่ยนเป็น B12", colloc: ["departure gate", "departure time"], syn: ["leaving", "takeoff"] },
+    { word: "destination", pos: "n.", th: "ปลายทาง", ex: "The final destination is Kuala Lumpur.", exTh: "ปลายทางคือกัวลาลัมเปอร์", colloc: ["travel destination", "final destination"], syn: ["end point", "terminus"] },
+    { word: "layover", pos: "n.", th: "จุดพักเครื่องระหว่างการเดินทาง", ex: "We have a two-hour layover in Dubai.", exTh: "เรามีจุดพักเครื่องสองชั่วโมงที่ดูไบ", colloc: ["long layover", "short layover"], syn: ["stopover"] },
+    { word: "transfer", pos: "n./v.", th: "การรับ-ส่ง/การโอนย้าย", ex: "The hotel offers airport transfer for guests.", exTh: "โรงแรมมีบริการรับ-ส่งสนามบินสำหรับแขก", colloc: ["airport transfer", "hotel transfer"], syn: ["shuttle", "transportation"] },
+    { word: "amenity", pos: "n.", th: "สิ่งอำนวยความสะดวก", ex: "The hotel offers free Wi-Fi and a fitness center as amenities.", exTh: "โรงแรมมีไวไฟฟรีและฟิตเนสเป็นสิ่งอำนวยความสะดวก", colloc: ["hotel amenities", "amenities list"], syn: ["facility", "service"] },
+    { word: "concierge", pos: "n.", th: "พนักงานอำนวยความสะดวก (โรงแรม)", ex: "The concierge can arrange restaurant reservations.", exTh: "พนักงานอำนวยความสะดวกจองร้านอาหารให้ได้", colloc: ["hotel concierge", "concierge service"], syn: ["guest services"] },
+    { word: "lobby", pos: "n.", th: "ล็อบบี้โรงแรม", ex: "Meet me in the hotel lobby at 7:00 P.M.", exTh: "เจอกันที่ล็อบบี้โรงแรม 19:00 น.", colloc: ["hotel lobby", "lobby lounge"], syn: ["foyer", "reception"] },
+    { word: "suite", pos: "n.", th: "ห้องชุด (โรงแรม)", ex: "The executive suite includes a separate living area.", exTh: "ห้องชุดผู้บริหารมีห้องนั่งเล่นแยกต่างหาก", colloc: ["executive suite", "presidential suite"], syn: ["deluxe room"] },
+    { word: "tariff", pos: "n.", th: "อัตราค่าบริการ (โรงแรม/ห้องพัก)", ex: "The room tariff includes breakfast.", exTh: "อัตราค่าห้องรวมอาหารเช้า", colloc: ["room tariff", "standard tariff"], syn: ["rate", "price list"] },
+    { word: "fare", pos: "n.", th: "ค่าโดยสาร", ex: "The fare for the airport express is $12.", exTh: "ค่าโดยสารรถไฟด่วนสนามบินคือ 12 ดอลลาร์", colloc: ["air fare", "taxi fare"], syn: ["ticket price", "charge"] },
+    { word: "shuttle", pos: "n.", th: "รถรับส่ง (สนามบิน/สถานที่)", ex: "A free shuttle runs between the hotel and the convention center.", exTh: "รถรับส่งฟรีวิ่งระหว่างโรงแรมกับศูนย์ประชุม", colloc: ["shuttle service", "free shuttle"], syn: ["bus", "van"] },
+    { word: "confirmation", pos: "n.", th: "การยืนยัน", ex: "A confirmation e-mail with the booking number will arrive shortly.", exTh: "อีเมลยืนยันพร้อมหมายเลขจองจะส่งมาเร็ว ๆ นี้", colloc: ["confirmation number", "booking confirmation"], syn: ["verification", "acknowledgment"] },
+    { word: "cancellation", pos: "n.", th: "การยกเลิก", ex: "Cancellation is free up to 48 hours before arrival.", exTh: "ยกเลิกฟรีจนถึง 48 ชั่วโมงก่อนเข้าพัก", colloc: ["cancellation policy", "free cancellation"], syn: ["annulment"] },
+    { word: "passport", pos: "n.", th: "หนังสือเดินทาง", ex: "Please present your passport at check-in.", exTh: "โปรดแสดงหนังสือเดินทางตอนเช็คอิน", colloc: ["valid passport", "passport control"], syn: ["travel document"] },
+    { word: "visa", pos: "n.", th: "วีซ่า", ex: "A business visa is required for this destination.", exTh: "ปลายทางนี้ต้องใช้วีซ่าธุรกิจ", colloc: ["business visa", "visa application"], syn: ["travel permit"] },
+    { word: "expedition", pos: "n.", th: "การเดินทางสำรวจ/ทัศนศึกษา", ex: "The expedition set out at dawn.", exTh: "การเดินทางสำรวจออกเดินทางตอนเช้ามืด", colloc: ["expedition team", "expedition schedule"], syn: ["journey", "trek"] },
+    { word: "conference", pos: "n.", th: "งานประชุม/คอนเฟอเรนซ์", ex: "The annual sales conference is in Chicago this year.", exTh: "งานประชุมฝ่ายขายประจำปีปีนี้อยู่ที่ชิคาโก", colloc: ["attend a conference", "conference venue"], syn: ["convention", "summit"] },
+    { word: "complimentary", pos: "adj.", th: "ไม่เสียค่าใช้จ่าย (ให้ฟรี)", ex: "Breakfast is complimentary for all guests.", exTh: "อาหารเช้าฟรีสำหรับแขกทุกคน", colloc: ["complimentary breakfast", "complimentary upgrade"], syn: ["free", "at no charge"] },
+    { word: "bellhop", pos: "n.", th: "พนักงานขนสัมภาระ (โรงแรม)", ex: "The bellhop took our bags to the room.", exTh: "พนักงานขนสัมภาระนำกระเป๋าไปห้องให้", colloc: ["bellhop service", "tipping the bellhop"], syn: ["porter", "bellboy"] },
+    { word: "tip", pos: "n.", th: "เงินให้ทิป", ex: "A service charge is included; tipping is optional.", exTh: "รวมค่าบริการแล้ว การให้ทิปเป็นทางเลือก", colloc: ["leave a tip", "tip the staff"], syn: ["gratuity"] },
+    { word: "transit", pos: "n.", th: "การขนส่ง/การผ่านแดน", ex: "Goods are in transit and will arrive tomorrow.", exTh: "สินค้าอยู่ระหว่างขนส่งและจะถึงพรุ่งนี้", colloc: ["in transit", "transit time"], syn: ["transportation", "passage"] },
+    { word: "sightseeing", pos: "n.", th: "การเที่ยวชมสถานที่", ex: "The tour includes a half-day of sightseeing.", exTh: "ทัวร์รวมเที่ยวชมครึ่งวัน", colloc: ["go sightseeing", "sightseeing tour"], syn: ["touring"] }
+  ]
+};

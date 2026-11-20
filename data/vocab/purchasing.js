@@ -1,0 +1,37 @@
+// data/vocab/purchasing.js — คลังคำศัพท์: Purchasing & Logistics
+window.TOEIC.vocab["purchasing"] = {
+  title: "Purchasing & Logistics",
+  words: [
+    { word: "order", pos: "n.", th: "คำสั่งซื้อ", ex: "The order will be shipped tomorrow morning.", exTh: "คำสั่งซื้อจะถูกจัดส่งเช้าพรุ่งนี้", colloc: ["place an order", "process an order"], syn: ["purchase", "request"] },
+    { word: "shipment", pos: "n.", th: "การจัดส่ง/ของที่จัดส่ง", ex: "The shipment is scheduled to arrive on Monday.", exTh: "การจัดส่งมีกำหนดถึงวันจันทร์", colloc: ["delayed shipment", "shipment tracking"], syn: ["consignment", "delivery"] },
+    { word: "delivery", pos: "n.", th: "การจัดส่ง/การส่งมอบ", ex: "Delivery takes three to five business days.", exTh: "การจัดส่งใช้เวลา 3–5 วันทำการ", colloc: ["express delivery", "free delivery"], syn: ["shipment", "drop-off"] },
+    { word: "warehouse", pos: "n.", th: "คลังสินค้า", ex: "The warehouse is closed on Sundays.", exTh: "คลังสินค้าปิดวันอาทิตย์", colloc: ["distribution warehouse", "warehouse operations"], syn: ["storage facility", "depot"] },
+    { word: "inventory", pos: "n.", th: "สินค้าคงคลัง/สต็อก", ex: "We conduct a full inventory count every quarter.", exTh: "เราสำรวจสินค้าคงคลังทั้งหมดทุกไตรมาส", colloc: ["inventory level", "inventory management"], syn: ["stock", "supply"] },
+    { word: "supplier", pos: "n.", th: "ผู้ผลิต/ผู้จัดจำหน่าย", ex: "We source components from three approved suppliers.", exTh: "เราจัดหาชิ้นส่วนจากผู้ผลิตที่อนุมัติสามราย", colloc: ["preferred supplier", "supplier contract"], syn: ["vendor", "source"] },
+    { word: "purchase order", pos: "n.", th: "ใบสั่งซื้อ", ex: "The purchase order was approved this morning.", exTh: "ใบสั่งซื้อได้รับอนุมัติเมื่อเช้านี้", colloc: ["issue a purchase order", "PO number"], syn: ["order form", "requisition"] },
+    { word: "procurement", pos: "n.", th: "การจัดซื้อ", ex: "Procurement negotiated a better rate with the vendor.", exTh: "ฝ่ายจัดซื้อเจรจาขออัตราที่ดีกว่าจากผู้ขาย", colloc: ["procurement process", "procurement department"], syn: ["purchasing", "sourcing"] },
+    { word: "quote", pos: "n.", th: "ใบเสนอราคา", ex: "We received quotes from five suppliers.", exTh: "เราได้รับใบเสนอราคาจากผู้ผลิตห้าราย", colloc: ["price quote", "request a quote"], syn: ["estimate", "quotation"] },
+    { word: "freight", pos: "n.", th: "การขนส่งสินค้า/ค่าขนส่ง", ex: "Freight costs rose by 8 percent this year.", exTh: "ค่าขนส่งเพิ่มขึ้น 8 เปอร์เซ็นต์ปีนี้", colloc: ["freight charges", "freight forwarder"], syn: ["shipping", "transport"] },
+    { word: "customs", pos: "n.", th: "ศุลกากร", ex: "The shipment was held at customs for inspection.", exTh: "สินค้าค้างที่ศุลกากรเพื่อตรวจสอบ", colloc: ["customs clearance", "customs duty"], syn: ["border control"] },
+    { word: "import", pos: "v./n.", th: "นำเข้า", ex: "The company imports raw materials from Vietnam.", exTh: "บริษัทนำเข้าวัตถุดิบจากเวียดนาม", colloc: ["import duties", "import license"], syn: ["bring in"] },
+    { word: "export", pos: "v./n.", th: "ส่งออก", ex: "Exports grew by double digits last year.", exTh: "การส่งออกโตสองหลักปีที่แล้ว", colloc: ["export market", "export license"], syn: ["sell abroad"] },
+    { word: "logistics", pos: "n.", th: "โลจิสติกส์", ex: "Our logistics partner handles last-mile delivery.", exTh: "พันธมิตรโลจิสติกส์ดูแลการจัดส่งไมล์สุดท้าย", colloc: ["logistics provider", "logistics network"], syn: ["supply chain", "distribution"] },
+    { word: "distribution", pos: "n.", th: "การกระจายสินค้า", ex: "The new distribution center opened in April.", exTh: "ศูนย์กระจายสินค้าใหม่เปิดเดือนเมษายน", colloc: ["distribution network", "distribution center"], syn: ["delivery network", "logistics"] },
+    { word: "track", pos: "v.", th: "ติดตามสถานะ", ex: "You can track your package online.", exTh: "คุณติดตามพัสดุออนไลน์ได้", colloc: ["track a shipment", "tracking number"], syn: ["monitor", "trace"] },
+    { word: "receipt", pos: "n.", th: "ใบเสร็จรับเงิน", ex: "Please keep the receipt for warranty claims.", exTh: "โปรดเก็บใบเสร็จไว้สำหรับเคลมประกัน", colloc: ["keep a receipt", "issue a receipt"], syn: ["proof of purchase"] },
+    { word: "confirm", pos: "v.", th: "ยืนยัน", ex: "Please confirm the delivery address by e-mail.", exTh: "โปรดยืนยันที่อยู่จัดส่งทางอีเมล", colloc: ["confirm receipt", "confirm the order"], syn: ["verify", "acknowledge"] },
+    { word: "route", pos: "n.", th: "เส้นทาง", ex: "The driver follows the optimized delivery route.", exTh: "คนขับวิ่งตามเส้นทางจัดส่งที่วางไว้อย่างเหมาะสม", colloc: ["delivery route", "route planning"], syn: ["path", "course"] },
+    { word: "container", pos: "n.", th: "ตู้คอนเทนเนอร์/กล่อง", ex: "The container was sealed before departure.", exTh: "ตู้คอนเทนเนอร์ถูกซีลก่อนออกเดินทาง", colloc: ["shipping container", "container load"], syn: ["cargo box"] },
+    { word: "dock", pos: "n.", th: "ท่าเทียบ/จุดโหลดสินค้า", ex: "Trucks arrive at the loading dock between 6 and 8 A.M.", exTh: "รถบรรทุกมาถึงจุดโหลด 06:00–08:00", colloc: ["loading dock", "dock schedule"], syn: ["loading bay", "wharf"] },
+    { word: "pallet", pos: "n.", th: "พาเลท", ex: "Each pallet holds 500 units.", exTh: "แต่ละพาเลทบรรจุ 500 ชิ้น", colloc: ["wooden pallet", "pallet loading"], syn: ["skid"] },
+    { word: "lead time", pos: "n.", th: "ระยะเวลาตั้งแต่สั่งจนได้รับของ", ex: "The lead time for this part is three weeks.", exTh: "ระยะเวลาจัดส่งชิ้นส่วนนี้คือสามสัปดาห์", colloc: ["long lead time", "reduce lead time"], syn: ["turnaround", "delivery time"] },
+    { word: "out of stock", pos: "prep. phr.", th: "สินค้าหมด", ex: "The item is currently out of stock.", exTh: "สินค้าชิ้นนี้หมดในขณะนี้", colloc: ["temporarily out of stock", "out-of-stock notice"], syn: ["unavailable", "sold out"] },
+    { word: "reorder", pos: "v.", th: "สั่งซื้อใหม่ (เพิ่มสต็อก)", ex: "We reorder when inventory falls below the minimum.", exTh: "เราสั่งใหม่เมื่อสต็อกต่ำกว่าขั้นต่ำ", colloc: ["reorder point", "automatic reorder"], syn: ["restock"] },
+    { word: "clearance", pos: "n.", th: "การเคลียร์/ระบาย (สินค้า/ศุลกากร/อนุญาต)", ex: "Customs clearance took two days.", exTh: "การเคลียร์ศุลกากรใช้เวลาสองวัน", colloc: ["customs clearance", "clearance sale"], syn: ["approval", "passage"] },
+    { word: "invoice", pos: "n.", th: "ใบแจ้งหนี้/ใบกำกับสินค้า", ex: "The invoice must match the shipment before payment.", exTh: "ใบแจ้งหนี้ต้องตรงกับสินค้าที่จัดส่งก่อนชำระ", colloc: ["commercial invoice", "invoice reconciliation"], syn: ["bill", "statement"] },
+    { word: "expedite", pos: "v.", th: "เร่งรัด (การจัดส่ง/ดำเนินการ)", ex: "We expedited the order at no extra cost.", exTh: "เราเร่งรัดการจัดส่งโดยไม่มีค่าใช้จ่ายเพิ่ม", colloc: ["expedite an order", "expedite delivery"], syn: ["rush", "fast-track"] },
+    { word: "ship", pos: "v.", th: "จัดส่ง", ex: "All orders placed today will ship tomorrow.", exTh: "ออเดอร์ทั้งหมดวันนี้จะจัดส่งพรุ่งนี้", colloc: ["ship within 24 hours", "free shipping"], syn: ["dispatch", "send", "deliver"] },
+    { word: "pickup", pos: "n.", th: "การไปรับของ", ex: "The driver will arrive for pickup at 7:00 A.M.", exTh: "คนขับจะมารับของเวลา 7:00 น.", colloc: ["pickup location", "scheduled pickup"], syn: ["collection", "collection point"] },
+    { word: "bulk", pos: "n./adj.", th: "สินค้าจำนวนมาก/แบบเหมา", ex: "Bulk orders receive a 10 percent discount.", exTh: "ออเดอร์แบบเหมาได้ส่วนลด 10 เปอร์เซ็นต์", colloc: ["bulk purchase", "bulk order"], syn: ["wholesale", "large-scale"] }
+  ]
+};

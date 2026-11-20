@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="เตรียมสอบ TOEIC Reading Section (Part 5–7) แบบครบวงจร: บทเรียนภาษาไทยเข้าใจง่าย ข้อสอบเสมือนจริง 100 ข้อ เฉลยละเอียด วิเคราะห์จุดอ่อนรายหัวข้อ และในคลังคำศัพท์ธุรกิจ 13 หมวด">
+<title>TOEIC Reading Mastery — เตรียมสอบ Reading ครบ Part 5–7</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='88'>📖</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sarabun:wght@400;600;700&family=Noto+Sans+Thai:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/exam.css">
+<link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+
+<header class="topbar no-print">
+  <div class="topbar-inner">
+    <a class="brand" href="#/">TOEIC Reading Mastery<small>Reading Section · Part 5–7</small></a>
+    <button class="icon-btn nav-toggle" id="nav-toggle" aria-label="เปิด/ปิดเมนู">☰</button>
+    <nav class="mainnav" id="mainnav" aria-label="เมนูหลัก"></nav>
+    <button class="icon-btn" id="font-toggle" title="ปรับขนาดตัวอักษร" aria-label="ปรับขนาดตัวอักษร">A<span style="font-size:1.15em">A</span></button>
+    <button class="icon-btn" id="theme-toggle" title="สลับธีม" aria-label="สลับธีม">🖥</button>
+  </div>
+</header>
+
+<main id="app" class="container" tabindex="-1"></main>
+
+<footer class="footer no-print">
+  <div class="container">
+    <div>
+      TOEIC is a registered trademark of ETS. This site is not affiliated with or endorsed by ETS.<br>
+      <span class="muted">เนื้อหาทั้งหมดแต่งขึ้นใหม่เพื่อการศึกษา · คะแนนที่แสดงเป็นค่าประมาณ ไม่ใช่ตารางแปลงคะแนนทางการของ ETS</span>
+    </div>
+    <div class="footer-tools" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <button class="btn btn-ghost" id="export-btn" type="button">⬇ Export ข้อมูล</button>
+      <button class="btn btn-ghost" id="import-btn" type="button">⬆ Import</button>
+      <input type="file" id="import-input" accept="application/json,.json" hidden>
+      <button class="btn btn-ghost" id="reset-btn" type="button" style="color:var(--danger)">ล้างข้อมูล</button>
+    </div>
+  </div>
+</footer>
+
+<!-- data: _init → tags → (lessons/vocab/exams เพิ่มตาม Phase) -->
+<script src="data/_init.js"></script>
+<script src="data/tags.js"></script>
+<!-- lessons (เรียงตาม module/order) -->
+<script src="data/lessons/m0-exam-overview.js"></script>
+<script src="data/lessons/m0-study-plan.js"></script>
+<script src="data/lessons/p5-word-forms.js"></script>
+<script src="data/lessons/p5-verb-tenses.js"></script>
+<script src="data/lessons/p5-subject-verb.js"></script>
+<script src="data/lessons/p5-active-passive.js"></script>
+<script src="data/lessons/p5-pronouns.js"></script>
+<script src="data/lessons/p5-relative-clauses.js"></script>
+<script src="data/lessons/p5-prepositions.js"></script>
+<script src="data/lessons/p5-conjunctions.js"></script>
+<script src="data/lessons/p5-correlative.js"></script>
+<script src="data/lessons/p5-gerund-infinitive.js"></script>
+<script src="data/lessons/p5-participles.js"></script>
+<script src="data/lessons/p5-comparison.js"></script>
+<script src="data/lessons/p5-conditionals.js"></script>
+<script src="data/lessons/p5-modals-causatives.js"></script>
+<script src="data/lessons/p5-quantifiers.js"></script>
+<script src="data/lessons/p5-adverbs.js"></script>
+<script src="data/lessons/m2-word-families.js"></script>
+<script src="data/lessons/m2-collocations.js"></script>
+<script src="data/lessons/m2-confusing-words.js"></script>
+<script src="data/lessons/m2-phrasal-verbs.js"></script>
+<script src="data/lessons/m2-near-synonyms.js"></script>
+<script src="data/lessons/m3-part6-overview.js"></script>
+<script src="data/lessons/m3-context-grammar.js"></script>
+<script src="data/lessons/m3-transitions.js"></script>
+<script src="data/lessons/m3-sentence-insertion.js"></script>
+<script src="data/lessons/m4-document-types.js"></script>
+<script src="data/lessons/m4-question-types.js"></script>
+<script src="data/lessons/m4-paraphrase.js"></script>
+<script src="data/lessons/m4-skim-scan.js"></script>
+<script src="data/lessons/m4-multiple-passages.js"></script>
+<script src="data/lessons/m6-trap-cheatsheet.js"></script>
+
+
+<!-- vocab -->
+<script src="data/vocab/office.js"></script>
+<script src="data/vocab/hr.js"></script>
+<script src="data/vocab/finance.js"></script>
+<script src="data/vocab/marketing.js"></script>
+<script src="data/vocab/purchasing.js"></script>
+<script src="data/vocab/manufacturing.js"></script>
+<script src="data/vocab/travel.js"></script>
+<script src="data/vocab/dining.js"></script>
+<script src="data/vocab/realestate.js"></script>
+<script src="data/vocab/tech.js"></script>
+<script src="data/vocab/health.js"></script>
+<script src="data/vocab/legal.js"></script>
+<script src="data/vocab/customer.js"></script>
+
+
+
+<!-- mock-01 -->
+<script src="data/exams/mock-01/meta.js"></script>
+<script src="data/exams/mock-01/part5.js"></script>
+<script src="data/exams/mock-01/part6.js"></script>
+<script src="data/exams/mock-01/part7-single.js"></script>
+<script src="data/exams/mock-01/part7-multi.js"></script>
+
+<!-- mock-02 -->
+<script src="data/exams/mock-02/meta.js"></script>
+<script src="data/exams/mock-02/part5.js"></script>
+<script src="data/exams/mock-02/part6.js"></script>
+<script src="data/exams/mock-02/part7-single.js"></script>
+<script src="data/exams/mock-02/part7-multi.js"></script>
+
+<!-- core -->
+<script src="js/core/utils.js"></script>
+<script src="js/core/store.js"></script>
+<script src="js/core/router.js"></script>
+<script src="js/core/timer.js"></script>
+
+<!-- components -->
+<script src="js/components/question.js"></script>
+<script src="js/components/passage.js"></script>
+<script src="js/components/navigator.js"></script>
+<script src="js/components/quiz.js"></script>
+
+<!-- views -->
+<script src="js/views/home.js"></script>
+<script src="js/views/lessons.js"></script>
+<script src="js/views/lesson.js"></script>
+<script src="js/views/vocab.js"></script>
+<script src="js/views/exams.js"></script>
+<script src="js/views/exam.js"></script>
+<script src="js/views/result.js"></script>
+<script src="js/views/mistakes.js"></script>
+<script src="js/views/history.js"></script>
+<script src="js/views/plan.js"></script>
+
+<script src="js/app.js"></script>
+</body>
+</html>

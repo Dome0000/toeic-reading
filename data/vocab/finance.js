@@ -1,0 +1,37 @@
+// data/vocab/finance.js — คลังคำศัพท์: Finance & Accounting
+window.TOEIC.vocab["finance"] = {
+  title: "Finance & Accounting",
+  words: [
+    { word: "revenue", pos: "n.", th: "รายได้", ex: "Revenue grew 12 percent year over year.", exTh: "รายได้เติบโต 12 เปอร์เซ็นต์เทียบปีต่อปี", colloc: ["annual revenue", "revenue growth"], syn: ["income", "turnover", "earnings"] },
+    { word: "profit", pos: "n.", th: "กำไร", ex: "Profit margins improved after the cost-cutting program.", exTh: "อัตรากำไรดีขึ้นหลังโปรแกรมลดต้นทุน", colloc: ["net profit", "profit margin"], syn: ["earnings", "gain"] },
+    { word: "loss", pos: "n.", th: "ขาดทุน/ผลขาดทุน", ex: "The division reported a loss for the third quarter.", exTh: "แผนกรายงานการขาดทุนไตรมาสที่สาม", colloc: ["net loss", "operating loss"], syn: ["deficit"] },
+    { word: "expense", pos: "n.", th: "ค่าใช้จ่าย", ex: "Operating expenses were held flat this year.", exTh: "ค่าใช้จ่ายการดำเนินงานถูกตรึงไว้เท่าเดิมปีนี้", colloc: ["operating expense", "cut expenses"], syn: ["cost", "expenditure"] },
+    { word: "budget", pos: "n.", th: "งบประมาณ", ex: "The project is currently over budget.", exTh: "โครงการตอนนี้งบเกิน", colloc: ["approved budget", "budget approval"], syn: ["financial plan", "allocation"] },
+    { word: "audit", pos: "n./v.", th: "การตรวจสอบบัญชี", ex: "The external audit confirmed the figures were accurate.", exTh: "การตรวจสอบจากภายนอกยืนยันว่าตัวเลขถูกต้อง", colloc: ["annual audit", "financial audit"], syn: ["review", "inspection"] },
+    { word: "invoice", pos: "n.", th: "ใบแจ้งหนี้", ex: "Please pay the invoice within 30 days to avoid late fees.", exTh: "โปรดชำระใบแจ้งหนี้ภายใน 30 วันเพื่อหลีกเลี่ยงค่าปรับล่าช้า", colloc: ["issue an invoice", "pay an invoice"], syn: ["bill", "statement"] },
+    { word: "payment", pos: "n.", th: "การชำระเงิน", ex: "Payment is due upon receipt of the invoice.", exTh: "ชำระเมื่อได้รับใบแจ้งหนี้", colloc: ["make a payment", "payment terms"], syn: ["settlement", "remittance"] },
+    { word: "tax", pos: "n.", th: "ภาษี", ex: "Corporate tax rates changed in January.", exTh: "อัตราภาษีนิติบุคคลเปลี่ยนในเดือนมกราคม", colloc: ["income tax", "sales tax"], syn: ["levy", "duty"] },
+    { word: "debt", pos: "n.", th: "หนี้สิน", ex: "The company is reducing its long-term debt.", exTh: "บริษัทกำลังลดหนี้ระยะยาว", colloc: ["long-term debt", "debt reduction"], syn: ["liability", "borrowing"] },
+    { word: "asset", pos: "n.", th: "สินทรัพย์", ex: "The building is the company's largest asset.", exTh: "อาคารนี้เป็นสินทรัพย์ที่ใหญ่ที่สุดของบริษัท", colloc: ["fixed asset", "asset register"], syn: ["holding", "property"] },
+    { word: "liability", pos: "n.", th: "หนี้สิน/ภาระผูกพัน", ex: "All liabilities are listed on the balance sheet.", exTh: "หนี้สินทั้งหมดถูกแสดงในงบดุล", colloc: ["current liability", "total liabilities"], syn: ["debt", "obligation"] },
+    { word: "dividend", pos: "n.", th: "เงินปันผล", ex: "Shareholders will receive a quarterly dividend.", exTh: "ผู้ถือหุ้นจะได้รับปันผลรายไตรมาส", colloc: ["pay a dividend", "dividend payment"], syn: ["share distribution"] },
+    { word: "share", pos: "n.", th: "หุ้น", ex: "She owns 10,000 shares of the company.", exTh: "เธอถือหุ้น 10,000 หุ้นของบริษัท", colloc: ["common shares", "share price"], syn: ["stock", "equity"] },
+    { word: "merger", pos: "n.", th: "การควบรวมกิจการ", ex: "The merger is expected to close in the fourth quarter.", exTh: "การควบรวมคาดว่าจะปิดสิ้นไตรมาสสี่", colloc: ["merger agreement", "merger talks"], syn: ["combination", "consolidation"] },
+    { word: "acquisition", pos: "n.", th: "การเข้าซื้อกิจการ", ex: "The acquisition doubled our market share in Southeast Asia.", exTh: "การเข้าซื้อกิจการช่วยเพิ่มส่วนแบ่งตลาดเราเป็นสองเท่าในเอเชียตะวันออกเฉียงใต้", colloc: ["strategic acquisition", "complete an acquisition"], syn: ["takeover", "purchase"] },
+    { word: "forecast", pos: "n./v.", th: "การพยากรณ์ (ทางการเงิน)", ex: "The sales forecast for next year was revised upward.", exTh: "การพยากรณ์ยอดขายปีหน้าถูกปรับขึ้น", colloc: ["sales forecast", "financial forecast"], syn: ["projection", "outlook"] },
+    { word: "reconcile", pos: "v.", th: "กระทบยอด (บัญชี)", ex: "Bank statements are reconciled monthly.", exTh: "ใบแจ้งยอดธนาคารถูกกระทบยอดทุกเดือน", colloc: ["reconcile an account", "reconcile differences"], syn: ["match", "verify"] },
+    { word: "collateral", pos: "n.", th: "หลักประกัน", ex: "The bank required the warehouse as collateral for the loan.", exTh: "ธนาคารกำหนดคลังสินค้าเป็นหลักประกันสินเชื่อ", colloc: ["provide collateral", "collateral requirement"], syn: ["security", "pledge"] },
+    { word: "interest", pos: "n.", th: "ดอกเบี้ย", ex: "The interest rate on the loan is 6.5 percent.", exTh: "อัตราดอกเบี้ยของสินเชื่อคือ 6.5 เปอร์เซ็นต์", colloc: ["interest rate", "pay interest"], syn: ["finance charge"] },
+    { word: "cash flow", pos: "n.", th: "กระแสเงินสด", ex: "Cash flow is tight this quarter due to delayed payments.", exTh: "กระแสเงินสดตึงมือไตรมาสนี้เพราะการชำระล่าช้า", colloc: ["improve cash flow", "positive cash flow"], syn: ["liquidity"] },
+    { word: "account", pos: "n.", th: "บัญชี", ex: "Please reconcile the account at the end of each month.", exTh: "โปรดกระทบยอดบัญชีทุกสิ้นเดือน", colloc: ["bank account", "account reconciliation"], syn: ["ledger"] },
+    { word: "ledger", pos: "n.", th: "สมุดบัญชี/บัญชีแยกประเภท", ex: "All transactions are recorded in the general ledger.", exTh: "ธุรกรรมทั้งหมดถูกบันทึกในบัญชีแยกประเภททั่วไป", colloc: ["general ledger", "ledger balance"], syn: ["account book"] },
+    { word: "deduction", pos: "n.", th: "การหัก (เงิน)/ค่าลดหย่อน", ex: "Tax deductions must be claimed with proper receipts.", exTh: "การลดหย่อนภาษีต้องมีใบเสร็จถูกต้อง", colloc: ["tax deduction", "deduction for"], syn: ["subtraction", "reduction"] },
+    { word: "transaction", pos: "n.", th: "ธุรกรรม", ex: "Each transaction over $5,000 requires a manager's sign-off.", exTh: "ทุกธุรกรรมที่เกิน 5,000 ดอลลาร์ต้องอนุมัติจากผู้จัดการ", colloc: ["financial transaction", "complete a transaction"], syn: ["deal", "operation"] },
+    { word: "refund", pos: "n./v.", th: "เงินคืน/การคืนเงิน", ex: "The refund will be processed within ten business days.", exTh: "เงินคืนจะดำเนินการภายในสิบวันทำการ", colloc: ["issue a refund", "request a refund"], syn: ["reimbursement", "repayment"] },
+    { word: "reimburse", pos: "v.", th: "ชดใช้/เบิกคืน", ex: "The company reimburses travel expenses monthly.", exTh: "บริษัทเบิกคืนค่าเดินทางรายเดือน", colloc: ["reimburse expenses", "fully reimbursed"], syn: ["repay", "compensate"] },
+    { word: "capital", pos: "n.", th: "ทุน/เงินทุน", ex: "The firm raised additional capital for the expansion.", exTh: "บริษัทระดมทุนเพิ่มเพื่อการขยายกิจการ", colloc: ["working capital", "raise capital"], syn: ["funding", "equity"] },
+    { word: "deficit", pos: "n.", th: "การขาดดุล/ขาดทุน", ex: "The operating deficit narrowed to $2 million this quarter.", exTh: "การขาดดุลการดำเนินงานแคบลงเหลือ 2 ล้านดอลลาร์ไตรมาสนี้", colloc: ["trade deficit", "budget deficit"], syn: ["shortfall"] },
+    { word: "discount", pos: "n.", th: "ส่วนลด", ex: "Early payment qualifies for a 2 percent discount.", exTh: "การชำระก่อนกำหนดได้รับส่วนลด 2 เปอร์เซ็นต์", colloc: ["volume discount", "early-payment discount"], syn: ["rebate", "markdown"] },
+    { word: "surplus", pos: "n.", th: "ส่วนเกิน/กำไรส่วนเกิน", ex: "The project produced a surplus of funds.", exTh: "โครงการมีเงินเหลือเกิน", colloc: ["budget surplus", "trade surplus"], syn: ["excess", "remainder"] }
+  ]
+};

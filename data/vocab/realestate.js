@@ -1,0 +1,36 @@
+// data/vocab/realestate.js — คลังคำศัพท์: Real Estate & Facilities
+window.TOEIC.vocab["realestate"] = {
+  title: "Real Estate & Facilities",
+  words: [
+    { word: "lease", pos: "n./v.", th: "สัญญาเช่า/เช่า", ex: "The lease expires in December.", exTh: "สัญญาเช่าหมดในเดือนธันวาคม", colloc: ["sign a lease", "lease agreement"], syn: ["rental contract", "tenancy"] },
+    { word: "tenant", pos: "n.", th: "ผู้เช่า", ex: "The tenant reported a leak in the ceiling.", exTh: "ผู้เช่ารายงานรอยรั่วบนเพดาน", colloc: ["commercial tenant", "tenant screening"], syn: ["renter", "occupant"] },
+    { word: "landlord", pos: "n.", th: "ผู้ให้เช่า/เจ้าของอาคาร", ex: "The landlord arranged repairs within 24 hours.", exTh: "ผู้ให้เช่าซ่อมแซมภายใน 24 ชั่วโมง", colloc: ["property landlord", "landlord responsibilities"], syn: ["owner", "property owner"] },
+    { word: "property", pos: "n.", th: "อสังหาริมทรัพย์/ทรัพย์สิน", ex: "The property was listed for sale last week.", exTh: "อสังหาริมทรัพย์ถูกประกาศขายสัปดาห์ที่แล้ว", colloc: ["commercial property", "property management"], syn: ["real estate", "premises"] },
+    { word: "facility", pos: "n.", th: "อาคาร/สิ่งอำนวยความสะดวก", ex: "The facility is open from 6 A.M. to 10 P.M.", exTh: "อาคารเปิด 06:00–22:00", colloc: ["manufacturing facility", "fitness facility"], syn: ["building", "site"] },
+    { word: "maintenance", pos: "n.", th: "การบำรุงรักษา", ex: "Scheduled maintenance is every Sunday.", exTh: "การบำรุงรักษาตามกำหนดทุกวันอาทิตย์", colloc: ["preventive maintenance", "building maintenance"], syn: ["servicing", "upkeep"] },
+    { word: "renovation", pos: "n.", th: "การปรับปรุงใหม่", ex: "The lobby renovation will finish in July.", exTh: "งานปรับปรุงล็อบบี้จะเสร็จในเดือนกรกฎาคม", colloc: ["office renovation", "renovation project"], syn: ["remodeling", "refurbishment"] },
+    { word: "floor plan", pos: "n.", th: "ผังพื้น (แปลนอาคาร)", ex: "The floor plan shows 200 workstations.", exTh: "ผังพื้นแสดงจุดทำงาน 200 จุด", colloc: ["office floor plan", "open floor plan"], syn: ["layout", "plan"] },
+    { word: "amenity", pos: "n.", th: "สิ่งอำนวยความสะดวก", ex: "The building includes a gym and rooftop lounge as amenities.", exTh: "อาคารมีฟิตเนสและเลานจ์บนดาดฟ้าเป็นสิ่งอำนวยความสะดวก", colloc: ["building amenities", "amenity list"], syn: ["facility", "feature"] },
+    { word: "deposit", pos: "n.", th: "เงินมัดจำ", ex: "A two-month deposit is required before moving in.", exTh: "ต้องวางเงินมัดจำสองเดือนก่อนย้ายเข้า", colloc: ["security deposit", "rental deposit"], syn: ["down payment"] },
+    { word: "rent", pos: "n./v.", th: "ค่าเช่า/เช่า", ex: "Rent is due on the first of each month.", exTh: "ค่าเช่าครบกำหนดต้นเดือนทุกเดือน", colloc: ["monthly rent", "rent increase"], syn: ["lease payment", "tenancy"] },
+    { word: "sublease", pos: "n./v.", th: "การให้เช่าช่วง", ex: "The company subleases two floors to a startup.", exTh: "บริษัทให้เช่าช่วงสองชั้นแก่สตาร์ทอัพ", colloc: ["sublease agreement", "sublease tenant"], syn: ["underlease"] },
+    { word: "utility", pos: "n.", th: "ค่าสาธารณูปโภค", ex: "Utilities are billed separately from rent.", exTh: "ค่าสาธารณูปโภคแยกจากค่าเช่า", colloc: ["utility bill", "utility costs"], syn: ["services"] },
+    { word: "zoning", pos: "n.", th: "การแบ่งเขต/ระเบียบการใช้ที่ดิน", ex: "The site is zoned for commercial use.", exTh: "พื้นที่นี้แบ่งเขตสำหรับการค้า", colloc: ["zoning regulation", "zoning permit"], syn: ["land-use planning"] },
+    { word: "contractor", pos: "n.", th: "ผู้รับเหมา", ex: "The contractor completed the lobby remodel ahead of schedule.", exTh: "ผู้รับเหมาทำงานปรับปรุงล็อบบี้เสร็จก่อนกำหนด", colloc: ["general contractor", "hire a contractor"], syn: ["builder", "firm"] },
+    { word: "HVAC", pos: "n.", th: "ระบบทำความร้อน-เย็นและถ่ายเทอากาศ", ex: "The HVAC system is serviced twice a year.", exTh: "ระบบ HVAC บำรุงรักษาปีละสองครั้ง", colloc: ["HVAC system", "HVAC maintenance"], syn: ["climate control"] },
+    { word: "inspection", pos: "n.", th: "การตรวจสอบ (อาคาร)", ex: "The building inspection is scheduled for Thursday.", exTh: "การตรวจสอบอาคารถูกกำหนดวันพฤหัส", colloc: ["building inspection", "safety inspection"], syn: ["check", "examination"] },
+    { word: "occupancy", pos: "n.", th: "การครอบครอง/อัตราการใช้พื้นที่", ex: "Occupancy in the office tower reached 92 percent.", exTh: "อัตราการใช้พื้นที่ในอาคารสำนักงานถึง 92 เปอร์เซ็นต์", colloc: ["occupancy rate", "full occupancy"], syn: ["usage", "tenancy"] },
+    { word: "premises", pos: "n.", th: "สถานที่/บริเวณอาคาร", ex: "Smoking is not permitted on the premises.", exTh: "ห้ามสูบบุหรี่ภายในบริเวณอาคาร", colloc: ["on the premises", "business premises"], syn: ["site", "property"] },
+    { word: "elevator", pos: "n.", th: "ลิฟต์", ex: "Both elevators will be serviced on Sunday morning.", exTh: "ลิฟต์ทั้งสองตัวจะบำรุงรักษาวันอาทิตย์เช้า", colloc: ["elevator maintenance", "elevator service"], syn: ["lift"] },
+    { word: "parking", pos: "n.", th: "ที่จอดรถ/การจอดรถ", ex: "Parking is validated for the first two hours.", exTh: "จอดรถฟรีสองชั่วโมงแรก", colloc: ["parking garage", "parking permit"], syn: ["car park"] },
+    { word: "appraisal", pos: "n.", th: "การประเมินราคา (อสังหา)", ex: "The bank requires an independent appraisal before approval.", exTh: "ธนาคารต้องการการประเมินราคาก่อนอนุมัติ", colloc: ["property appraisal", "independent appraisal"], syn: ["valuation", "assessment"] },
+    { word: "vacancy", pos: "n.", th: "พื้นที่ว่าง/ห้องว่าง", ex: "The building has a 15 percent vacancy rate.", exTh: "อาคารนี้มีพื้นที่ว่าง 15 เปอร์เซ็นต์", colloc: ["vacancy rate", "vacancy advertisement"], syn: ["unoccupied space"] },
+    { word: "mortgage", pos: "n.", th: "สินเชื่อบ้าน/จำนอง", ex: "The company took a mortgage on the warehouse.", exTh: "บริษัทกู้สินเชื่อจำนองโรงงาน", colloc: ["commercial mortgage", "mortgage payment"], syn: ["home loan"] },
+    { word: "install", pos: "v.", th: "ติดตั้ง", ex: "New security cameras were installed on every floor.", exTh: "กล้องวงจรปิดใหม่ถูกติดตั้งทุกชั้น", colloc: ["install equipment", "install lighting"], syn: ["set up", "fit"] },
+    { word: "repair", pos: "n./v.", th: "การซ่อม/ซ่อมแซม", ex: "The air-conditioning repair will be completed tomorrow.", exTh: "งานซ่อมแอร์จะเสร็จพรุ่งนี้", colloc: ["urgent repair", "repair request"], syn: ["fix", "maintenance"] },
+    { word: "compliance", pos: "n.", th: "การปฏิบัติตามมาตรฐานอาคาร/กฎหมาย", ex: "The building passed fire-code compliance inspection.", exTh: "อาคารผ่านการตรวจตามมาตรฐานอัคคีภัย", colloc: ["code compliance", "compliance certificate"], syn: ["conformity"] },
+    { word: "installation", pos: "n.", th: "การติดตั้ง", ex: "Installation of the new lighting is scheduled for Monday.", exTh: "การติดตั้งไฟใหม่กำหนดวันจันทร์", colloc: ["equipment installation", "installation schedule"], syn: ["setup", "fitting"] },
+    { word: "groundbreaking", pos: "n./adj.", th: "พิธีเปิดการก่อสร้าง/บุกเบิก", ex: "The groundbreaking ceremony is scheduled for June.", exTh: "พิธีเปิดการก่อสร้างกำหนดเดือนมิถุนายน", colloc: ["groundbreaking ceremony", "groundbreaking event"], syn: ["construction start"] },
+    { word: "square foot", pos: "n.", th: "ตารางฟุต (หน่วยพื้นที่)", ex: "The office space is 8,000 square feet.", exTh: "พื้นที่สำนักงาน 8,000 ตารางฟุต", colloc: ["square footage", "per square foot"], syn: ["sq ft"] }
+  ]
+};

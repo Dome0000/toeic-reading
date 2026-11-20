@@ -1,0 +1,37 @@
+// data/vocab/tech.js — คลังคำศัพท์: Technology & IT
+window.TOEIC.vocab["tech"] = {
+  title: "Technology & IT",
+  words: [
+    { word: "software", pos: "n.", th: "ซอฟต์แวร์", ex: "The accounting software was updated last night.", exTh: "ซอฟต์แวร์บัญชีถูกอัปเดตเมื่อคืนนี้", colloc: ["software update", "software license"], syn: ["application", "program"] },
+    { word: "hardware", pos: "n.", th: "ฮาร์ดแวร์", ex: "New hardware will be deployed next quarter.", exTh: "ฮาร์ดแวร์ใหม่จะถูกติดตั้งไตรมาสหน้า", colloc: ["hardware upgrade", "new hardware"], syn: ["equipment"] },
+    { word: "upgrade", pos: "n./v.", th: "การอัปเกรด/อัปเกรด", ex: "Please upgrade to the latest version.", exTh: "โปรดอัปเกรดเป็นเวอร์ชันล่าสุด", colloc: ["free upgrade", "upgrade now"], syn: ["update", "improvement"] },
+    { word: "maintenance", pos: "n.", th: "การบำรุงรักษา", ex: "System maintenance is scheduled for Sunday 2:00 A.M.", exTh: "บำรุงรักษาระบบวันอาทิตย์ตีสอง", colloc: ["scheduled maintenance", "system maintenance"], syn: ["servicing"] },
+    { word: "server", pos: "n.", th: "เซิร์ฟเวอร์", ex: "The file server went down during backup.", exTh: "เซิร์ฟเวอร์ไฟล์ล่มระหว่างสำรองข้อมูล", colloc: ["file server", "server outage"], syn: ["host"] },
+    { word: "network", pos: "n.", th: "เครือข่าย", ex: "The network was reconfigured for better speed.", exTh: "เครือข่ายถูกตั้งค่าใหม่เพื่อความเร็ว", colloc: ["wired network", "network connection"], syn: ["infrastructure"] },
+    { word: "backup", pos: "n./v.", th: "การสำรองข้อมูล/สำรอง", ex: "Please back up your files nightly.", exTh: "โปรดสำรองไฟล์ทุกคืน", colloc: ["data backup", "automatic backup"], syn: ["copy", "safeguard"] },
+    { word: "security", pos: "n.", th: "ความปลอดภัย", ex: "The security audit found two vulnerabilities.", exTh: "การตรวจความปลอดภัยพบช่องโหว่สองจุด", colloc: ["data security", "security audit"], syn: ["safety", "protection"] },
+    { word: "password", pos: "n.", th: "รหัสผ่าน", ex: "Passwords must be changed every 90 days.", exTh: "รหัสผ่านต้องเปลี่ยนทุก 90 วัน", colloc: ["strong password", "reset your password"], syn: ["passphrase", "credential"] },
+    { word: "encrypt", pos: "v.", th: "เข้ารหัส", ex: "All data is encrypted in transit and at rest.", exTh: "ข้อมูลทั้งหมดถูกเข้ารหัสระหว่างส่งและระหว่างเก็บ", colloc: ["encrypt data", "encrypted connection"], syn: ["encode", "secure"] },
+    { word: "download", pos: "n./v.", th: "การดาวน์โหลด/ดาวน์โหลด", ex: "The file is available for download from the portal.", exTh: "ไฟล์ให้ดาวน์โหลดจากพอร์ทัล", colloc: ["download link", "automatic download"], syn: ["retrieve"] },
+    { word: "upload", pos: "n./v.", th: "การอัปโหลด/อัปโหลด", ex: "Please upload your documents by Friday.", exTh: "โปรดอัปโหลดเอกสารภายในวันศุกร์", colloc: ["upload a file", "file upload"], syn: ["submit", "transfer"] },
+    { word: "database", pos: "n.", th: "ฐานข้อมูล", ex: "The customer database is updated nightly.", exTh: "ฐานข้อมูลลูกค้าถูกอัปเดตทุกคืน", colloc: ["database administrator", "relational database"], syn: ["data store"] },
+    { word: "application", pos: "n.", th: "แอปพลิเคชัน/แอป", ex: "The mobile application launched this morning.", exTh: "แอปมือถือเปิดตัวเช้านี้", colloc: ["mobile application", "web application"], syn: ["app", "program"] },
+    { word: "platform", pos: "n.", th: "แพลตฟอร์ม", ex: "Our platform supports both iOS and Android.", exTh: "แพลตฟอร์มของเราใช้ได้ทั้ง iOS และ Android", colloc: ["cloud platform", "technology platform"], syn: ["system"] },
+    { word: "implementation", pos: "n.", th: "การนำไปใช้/การติดตั้งและใช้งาน", ex: "The ERP implementation will take six months.", exTh: "การนำ ERP มาใช้จะใช้เวลาหกเดือน", colloc: ["system implementation", "successful implementation"], syn: ["deployment", "rollout"] },
+    { word: "interface", pos: "n.", th: "หน้าจอ/ส่วนเชื่อมต่อผู้ใช้", ex: "The new interface is far more intuitive.", exTh: "หน้าจอใหม่ใช้ง่ายกว่ามาก", colloc: ["user interface", "intuitive interface"], syn: ["UI", "front-end"] },
+    { word: "compatibility", pos: "n.", th: "ความเข้ากันได้", ex: "Backward compatibility was maintained with the old API.", exTh: "ความเข้ากันได้ย้อนหลังยังคงอยู่กับ API เดิม", colloc: ["backward compatibility", "compatibility issue"], syn: ["interoperability"] },
+    { word: "outage", pos: "n.", th: "การล่ม/การหยุดให้บริการ", ex: "The outage was resolved within two hours.", exTh: "ระบบกลับมาใช้งานได้ภายในสองชั่วโมง", colloc: ["system outage", "unplanned outage"], syn: ["downtime", "failure"] },
+    { word: "intrusion", pos: "n.", th: "การบุกรุก (ไซเบอร์)", ex: "The intrusion was blocked by the firewall.", exTh: "การบุกรุกถูกป้องกันโดยไฟร์วอลล์", colloc: ["intrusion detection", "intrusion attempt"], syn: ["breach", "infiltration"] },
+    { word: "malware", pos: "n.", th: "มัลแวร์/โปรแกรมไม่พึงประสงค์", ex: "The scan found no malware on the machine.", exTh: "การสแกนไม่พบมัลแวร์บนเครื่อง", colloc: ["malware protection", "malware attack"], syn: ["virus", "malicious software"] },
+    { word: "antivirus", pos: "n./adj.", th: "ซอฟต์แวร์ป้องกันไวรัส", ex: "Antivirus runs automatically every night.", exTh: "โปรแกรมสแกนไวรัสทำงานทุกคืน", colloc: ["antivirus software", "antivirus scan"], syn: ["anti-malware"] },
+    { word: "firewall", pos: "n.", th: "ไฟร์วอลล์", ex: "The firewall blocked an unauthorized access attempt.", exTh: "ไฟร์วอลล์ป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต", colloc: ["network firewall", "firewall rule"], syn: ["security barrier"] },
+    { word: "encryption", pos: "n.", th: "การเข้ารหัส", ex: "All backups are stored with AES-256 encryption.", exTh: "ทุกการสำรองข้อมูลถูกเข้ารหัส AES-256", colloc: ["data encryption", "end-to-end encryption"], syn: ["encoding"] },
+    { word: "cloud", pos: "n./adj.", th: "ระบบคลาวด์", ex: "The files were migrated to the cloud last month.", exTh: "ไฟล์ถูกย้ายไปคลาวด์เดือนที่แล้ว", colloc: ["cloud storage", "cloud migration"], syn: ["remote hosting"] },
+    { word: "virtual", pos: "adj.", th: "เสมือน (ทุกรูปแบบ)", ex: "The virtual meeting begins at 2:00 P.M.", exTh: "การประชุมเสมือนเริ่ม 14:00 น.", colloc: ["virtual meeting", "virtual machine"], syn: ["online", "remote"] },
+    { word: "automate", pos: "v.", th: "ทำให้อัตโนมัติ", ex: "Manual data entry was automated last quarter.", exTh: "การกรอกข้อมูลด้วยมือถูกทำเป็นอัตโนมัติไตรมาสที่แล้ว", colloc: ["automate tasks", "automate a process"], syn: ["mechanize"] },
+    { word: "migrate", pos: "v.", th: "ย้ายระบบ/ข้อมูล", ex: "The database was migrated to the new server.", exTh: "ฐานข้อมูลถูกย้ายไปเซิร์ฟเวอร์ใหม่", colloc: ["migrate data", "server migration"], syn: ["transfer", "move"] },
+    { word: "deploy", pos: "v.", th: "ติดตั้งและใช้งาน", ex: "The new version was deployed yesterday evening.", exTh: "เวอร์ชันใหม่ถูกติดตั้งเมื่อวานเย็น", colloc: ["deploy an update", "production deployment"], syn: ["roll out", "release"] },
+    { word: "bandwidth", pos: "n.", th: "แบนด์วิธ/ความเร็วการส่งข้อมูล", ex: "Video calls require sufficient bandwidth.", exTh: "วิดีโอคอลต้องมีแบนด์วิธเพียงพอ", colloc: ["sufficient bandwidth", "internet bandwidth"], syn: ["capacity"] },
+    { word: "IT support", pos: "n.", th: "ฝ่ายสนับสนุนไอที", ex: "Contact IT support if your laptop won't start.", exTh: "ติดต่อฝ่ายสนับสนุนไอทีหากแล็ปท็อปเปิดไม่ติด", colloc: ["IT support team", "help desk support"], syn: ["help desk", "tech support"] }
+  ]
+};
