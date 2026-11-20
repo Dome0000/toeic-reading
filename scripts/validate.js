@@ -326,15 +326,17 @@ function printBlind(id) {
     lines.push(`\n${q.no}. ${q.stem || '(ดูบทความประกอบ)'}`);
     (q.options || []).forEach((o, i) => lines.push(`   (${LETTERS[i]}) ${o}`));
   };
+  // แทนที่ <span class='blank'> ด้วย ------- ก่อนตัด HTML (ไม่งั้นคนเฉลยจะไม่เห็นช่องว่าง)
+  const blindText = html => stripHtml(String(html || '').replace(/<span[^>]*class=['"]blank['"][^>]*><\/span>/g, ' ------- '));
   (exam.part5 || []).forEach(q => pushQ(q, null));
   (exam.part6 || []).forEach(set => {
     lines.push('\n=== ' + set.header + ' ===');
-    lines.push(stripHtml(set.passageHtml));
+    lines.push(blindText(set.passageHtml));
     set.questions.forEach(q => pushQ(q, null));
   });
   (exam.part7Single || []).concat(exam.part7Multi || []).forEach(set => {
     lines.push('\n=== ' + set.header + ' ===');
-    (set.passages || []).forEach(p => { lines.push('--- ' + (p.label || 'Passage') + ' ---'); lines.push(stripHtml(p.html)); });
+    (set.passages || []).forEach(p => { lines.push('--- ' + (p.label || 'Passage') + ' ---'); lines.push(blindText(p.html)); });
     set.questions.forEach(q => pushQ(q, null));
   });
   console.log(lines.join('\n'));

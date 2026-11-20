@@ -79,7 +79,7 @@ P5 answers: A 7 · B 8 · C 7 · D 8
 |---|---|---|---|---|
 | 135 | ___ the new policy is announced, violations will be enforced. | transition | กลาง | C |
 | 136 | ยานพาหนะที่ ___ (is/are/be) not registered … | p6-context-grammar | กลาง | B |
-| 137 | ___ [2] แทรกประโยค "Failure to comply may result in towing at the owner's expense." | sentence-insertion | ยาก | D |
+| 137 | ___ [4] แทรกประโยค "Employees with questions may contact the HR help desk." | sentence-insertion | ยาก | D |
 | 138 | unregistered vehicles will be ___ (towed/pushed/driven) | p6-vocab | ยาก | C |
 
 ### p6-3 · notice · Questions 139-142 refer to the following notice.
@@ -167,7 +167,7 @@ Single 29 ข้อ (2-2-2-2-3-3-3-4-4-4) · Double 10 (2 ชุด ×5) · Trip
 | ข้อ | รายละเอียดย่อย | tag | ยาก | เฉลย |
 |---|---|---|---|---|
 | 161 | บทความนี้กล่าวถึงแนวโน้มอะไร | main-idea | กลาง | D |
-| 162 | แทรกประโยค "This approach cuts last-mile delivery costs." ไว้ที่ [1]–[4] | sentence-insertion | กลาง | B |
+| 162 | แทรกประโยค "This shift is part of a broader move toward urban logistics." ไว้ที่ [1]–[4] | sentence-insertion | กลาง | A |
 | 163 | "consolidated" (para 2) ใกล้เคียงคำไหน (combined) | vocab-in-context | ยาก | C |
 
 #### p7-s08 · advertisement · Questions 164-167 · 4 ข้อ
