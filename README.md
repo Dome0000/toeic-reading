@@ -2,11 +2,15 @@
 
 เว็บเตรียมสอบ **TOEIC Reading Section (Part 5–7)** สำหรับผู้เรียนชาวไทย — บทเรียนภาษาไทยที่อ่านเข้าใจได้เอง พร้อม Mock Exam 2 ชุด (ชุดละ 100 ข้อ) เฉลยละเอียด และวิเคราะห์จุดอ่อนรายหัวข้อ
 
+🌐 **ใช้งานออนไลน์:** [dome0000.github.io/toeic-reading](https://dome0000.github.io/toeic-reading/)
+
 > เป็นเว็บ static (HTML/CSS/Vanilla JS) ไม่มี build step ไม่พึ่ง npm package
 
 ## เปิดเว็บ
 
-เปิดไฟล์ `index.html` ด้วยการดับเบิลคลิก (ใช้ `file://`) ได้ทันที — ไม่ต้องเปิดเซิร์ฟเวอร์
+**ออนไลน์** — เปิด [dome0000.github.io/toeic-reading](https://dome0000.github.io/toeic-reading/) ได้เลย (GitHub Pages)
+
+**ในเครื่อง** — เปิดไฟล์ `index.html` ด้วยการดับเบิลคลิก (ใช้ `file://`) ได้ทันที ไม่ต้องเปิดเซิร์ฟเวอร์
 
 > **สำคัญ:** ห้ามใช้ `fetch()` หรือ `<script type="module">` เพราะ Chrome บล็อกบน `file://` — โหลดทุกไฟล์ด้วย `<script src>` แบบ classic
 
@@ -52,6 +56,16 @@ node scripts/validate.js --blind mock-01  # พิมพ์โจทย์/ต�
 ใช้เฉพาะ Node built-in (fs, path, vm) — ไม่ต้องติดตั้งอะไรเพิ่ม
 
 สิ่งที่ตรวจ: จำนวน/เลขข้อ/ขนาดชุด · 4 ตัวเลือกไม่ซ้ำ · เฉลย A–D · `explain.why` + `explain.wrong` ครบ 3 ตัว · tag อยู่ใน `data/tags.js` · evidence quote ตรงตัวกับบทความ · blank/`[1]–[4]` ครบ · การกระจายเฉลยและความยาก · ไม่มี placeholder
+
+## Deploy ขึ้น GitHub Pages
+
+หน้าเว็บ deploy อัตโนมัติจาก branch `main` (โฟลเดอร์ราก) ผ่าน GitHub Pages
+
+1. push ไป `main` ตามปกติ — GitHub Actions ของ Pages จะ build ให้เอง
+2. ตั้งค่า: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)`**
+3. รอ 1–2 นาที แล้วเปิด `https://<username>.github.io/toeic-reading/`
+
+ไม่มี build step เพราะเป็นไฟล์ static ล้วน — เปลี่ยนไฟล์แล้ว push ก็ขึ้นใหม่ทันที
 
 ## โครงสร้างไฟล์
 
